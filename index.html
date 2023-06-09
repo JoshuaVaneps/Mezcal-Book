@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -12,80 +14,265 @@
     <title>Mezcal Bible Information</title>
   </head>
   <body>
-    <h1>Tequila Information</h1>
-    <table class="col-1 col-lg-12">
-      <thead>
-        <tr class="col-12 justify-content-evenly">
-          <th>Tequila</th>
-          <th>Maguey</th>
-          <th>Style</th>
-          <th>Origin</th>
-          <th>ABV</th>
-          <th>Distillation</th>
-          <th>Aroma</th>
-          <th>Palate</th>
-          <th>Appearance</th>
-          <th>How to Enjoy</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="mezcal-name">
-            Del Maguey Tepaxtate
-            <img
-              src="./assets/images/del-maguey-wild-tepeztate.jpg"
-              alt="a picture of the bottle"
-            />
-          </td>
-          <td>Tepaxtate</td>
-          <td>Joven</td>
-          <td>Santa Maria Albarradas</td>
-          <td>45%</td>
-          <td>Artisanal, small-batch distillation</td>
-          <td>Complex, earthy, hints of smoke</td>
-          <td>
-            Delicate, roasted agave, herbal undertones, touch of sweetness
-          </td>
-          <td>Clear, medium body</td>
-          <td>would be great in an Old Fashioned</td>
-        </tr>
-        <tr>
-          <td class="mezcal-name">
-            Del Maguey Tobala
-            <img
-              src="./assets/images/del-maguey-mezcal-tobala.jpg"
-              alt="a picture of the bottle"
-            />
-          </td>
-          <td>Tobala</td>
-          <td>Joven</td>
-          <td>Santa Maria Albarradas</td>
-          <td>46%</td>
-          <td>Artisanal, small-batch distillation</td>
-          <td>Intense, floral, tropical fruit</td>
-          <td>Complex, ripe agave, sweet spices, touch of minerality</td>
-          <td>Clear, medium body</td>
-          <td>Sip neat, on the rocks, or in premium cocktails</td>
-        </tr>
-        <tr>
-          <td class="mezcal-name">
-            Del Maguey Tobasiche
-            <img
-              src="./assets/images/del-maguey-tobaziche.jpg"
-              alt="a picture of the bottle"
-            />
-          </td>
-          <td>Tobasiche</td>
-          <td>Joven</td>
-          <td>San Luis del Rio</td>
-          <td>47%</td>
-          <td>Artisanal, small-batch distillation</td>
-          <td>Complex, herbal, hints of smoke</td>
-          <td>Vibrant, fresh agave, herbal undertones, subtle spiciness</td>
-          <td>Clear, medium body</td>
-          <td>Would be great in a negroni</td>
-        </tr>
-      </tbody>
-    </table>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark px-2 sticky-top position-sticky zindex-sticky"
+    >
+      <a class="navbar-brand d-flex mx-auto" href="#"
+        ><img
+          src="./assets/images/Screenshot_2023-06-06_145750-removebg-preview.png"
+          alt="reyes mezcaleria logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mezcal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tequila</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cocktails</a>
+          </li>
+          <li class="nav-item">
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-2"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="swiper bg-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assets/images/mezcal-destilado-con-mango.jpg" alt="gracias a dios mezcal">
+          <div class="text-content">
+            <h2 class="title">Gracias A Dios <span>Mezcal</span></h2>
+            <p> A deep commitment to family values and Mexican culture
+              underlines their approach to producing handmade, ultra-premium
+              quality mezcal and agave gin.</p>
+              <a href="https://www.thankgad.com/" class="read-btn effect effect1">Learn More  <i class="uil uil-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="./assets/images/Mezcal-Joven-Ilegal-Bottle-Shots.jpeg" alt="Illegal Mezcal">
+          <div class="text-content">
+            <h2 class="title">Illegal<span>Mezcal</span></h2>
+            <p>   Handcrafted in small batches by fourth-generation mezcaleros, our
+              Joven, Reposado, and Añejo mezcals are all made with perfectly ripe,
+              sustainable Espadín agave, double distilled in the Santiago Matatlan
+              Valley of Oaxaca, Mexico.</p>
+            <a href="https://www.ilegalmezcal.com/" class="read-btn effect effect1">Learn More  <i class="uil uil-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide dark-layer">
+          <img src="./assets/images/MEZCAL+PECHUGA-65.jpg" alt="Mezcal Vago">
+          <div class="text-content">
+            <h2 class="title">Mezcal Vago <span>Mezcal</span></h2>
+            <p> At Vago, we believe in walking away from the beaten path, losing
+              ourselves in the hills, and searching out the extraordinary. We seek
+              out small batch mezcaleros, who for generations have been perfecting
+              their craft deep in the mountains of Southern Oaxaca..</p>
+            <a href="https://mezcalvago.com/" class="read-btn effect effect1">Learn More  <i class="uil uil-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/del maguey fruit.jpg" alt="gracias a dios mezcal">
+          <div class="text-content">
+            <h2 class="title">Del Maguey<span>Mezcal</span></h2>
+            <p> Every bottle of Del Maguey Single Village Mezcal tells a story; the
+              union of the agave plant and ancient traditions. Each bottle is an
+              Expression – a story told by the hand of the maker.</p>
+            <a href="https://delmaguey.com/?utm_source=Google&utm_campaign=DelMaguey_AlwaysOnSearch_H1_FY23&utm_medium=Paid_search&utm_term=del%20maguey&utm_audience_type=NA&utm_audience_ID=NA&utm_product=DelMaguey_Multi&utm_recipe=NA&gclid=CjwKCAjw-IWkBhBTEiwA2exyO0J4vKDl9XIjsz3tLudEvimJbUr50aLTL824Gt8FzrAjkkD6gRl6CxoCsR4QAvD_BwE&gclsrc=aw.ds" class="read-btn effect effect1">Learn More <i class="uil uil-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-slider-thumbs">
+      <div class="swiper-wrapper thumbs-container">
+        <img src="./assets/images/mezcal-destilado-con-mango.jpg" class="swiper-slide" alt="gracias a dios mezcal">
+        <img src="./assets/images/Mezcal-Joven-Ilegal-Bottle-Shots.jpeg" class="swiper-slide" alt="Illegal Mezcal">
+        <img src="./assets/images/MEZCAL+PECHUGA-65.jpg" class="swiper-slide" alt="Mezcal Vago Mezcal">
+        <img src="./assets/images/del maguey fruit.jpg" class="swiper-slide" alt="Del Maguey Mezcal">
+      </div>
+    </div>
+  </section>
+    <div class="hero">
+      <h1>Del Maguey</h1>
+    </div>
+    <div class="container-fluid">
+      <container class="content">
+        <div class="mezcal">
+          <div
+            class="type-wrapper p-5 m-2 p-md-3 m-md-1 p-lg-2 d-flex flex-wrap"
+          >
+            <div class="text-wrapper d-flex col-12 col-md-5">
+              <div class="column-text flex-wrap text-white">
+                <h2 class="mezcal-title">Tepextate</h2>
+                <p class="description justify-content-center">
+                  Hand-crafted on a tropical hillside surrounded by fruit trees
+                  and rose bushes in the village of Santa Maria Albarradas.
+                  Naturally fermented and twice distilled in wood-fired copper
+                  stills. Nose of banana taffy and spun sugar. Palate of
+                  passionfruit, marzipan and dark green herbs. Finishes with
+                  hints of cinnamon and honeysuckle.
+                </p>
+                <div class="more-info navbar-expand-lg navbar-light px-2">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#learn-more"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span
+                      class="navbar-toggler-icon d-flex justify-content-center"
+                    ></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="learn-more">
+                    <ul class="navbar-nav" id="learn-list">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                          ><h4>ABV:</h4>
+                          45%</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Agave:</h4>
+                          Tepextate</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Aroma:</h4>
+                          Complex, earthy, hints of smoke</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Pallet:</h4>
+                          roasted agave, herbal undertones, touch of sweetness
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-image d-flex m-1 col-12 col-md-5">
+              <p class="bottle justify-content-center">
+                <img
+                  src="./assets/images/TEP-1080x325-1-308x1024.png"
+                  alt="bottle of del maguey tepaxtate"
+                  style="height: 540px; width: 154px"
+                />
+              </p>
+            </div>
+          </div>
+          <div
+            class="type-wrapper p-5 m-2 p-md-3 m-md-1 p-lg-2 d-flex flex-wrap"
+          >
+            <div class="column-image d-flex m-1 col-12 col-md-5">
+              <p class="bottle justify-content-center">
+                <img
+                  src="./assets/images/TEP-1080x325-1-308x1024.png"
+                  alt="bottle of del maguey tepaxtate"
+                  style="height: 540px; width: 154px"
+                />
+              </p>
+            </div>
+            <div class="text-wrapper d-flex col-12 col-md-5">
+              <div class="column-text flex-wrap text-white">
+                <h2 class="mezcal-title">Tobalá</h2>
+                <p class="description justify-content-center">
+                  Hand-crafted on a tropical hillside surrounded by fruit trees
+                  and rose bushes in the village of Santa Maria Albarradas.
+                  Agave: Tobalá. Naturally fermented and twice distilled in
+                  wood-fired copper stills. Nose of fruit & florals, palate of
+                  mango, cinnamon & bright salinity with a long, creamy finish.
+                  ABV 48.
+                </p>
+                <div class="more-info navbar-expand-lg navbar-light px-2">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#learn-more-2"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span
+                      class="navbar-toggler-icon d-flex justify-content-center"
+                    ></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="learn-more-2">
+                    <ul class="navbar-nav" id="learn-list">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                          ><h4>ABV:</h4>
+                          46%</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Agave:</h4>
+                          Tobala</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Aroma:</h4>
+                          Intense, floral, tropical fruit</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Pallet:</h4>
+                          ripe agave, sweet spices, touch of minerality
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </container>
+    </div>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
