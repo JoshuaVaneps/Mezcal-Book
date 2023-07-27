@@ -258,7 +258,7 @@ body {
 
   opacity: 0.9;
   justify-content: center;
-  background-image: url("/Personal/Practice/Mezcal Book/assets/images/hand-drawn-blue-agave-seamless-pattern-succulent-plants-wallpaper-engraving-vintage-style-vector-removebg-preview.png"); /*gives our image a source*/
+  background-image: url("/Personal/Practice/Mezcal Book/public/images/hand-drawn-blue-agave-seamless-pattern-succulent-plants-wallpaper-engraving-vintage-style-vector-removebg-preview.png"); /*gives our image a source*/
   background-size: contain; /*Scales the image (while preserving its ratio) to the smallest possible size to fill the container */
 }
 
@@ -335,6 +335,30 @@ h4 {
 .column-image {
   justify-content: center;
   margin: 10px;
+}
+
+/* log in stylization */
+.post {
+  flex: 4;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  margin: 0 0 20px 0;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 5px;
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+  border-style: double;
+  border-width: thick;
+  background-color: #577a7c;
+  color: var(--light);
 }
 
 @media screen and (max-width: 1450px) {

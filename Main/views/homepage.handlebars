@@ -1,0 +1,8 @@
+{{> mezcal-swiper}}
+{{#if loggedIn}}
+{{#each mezcal as |mezcal|}}
+{{> mezcal-details}}
+{{/each}}
+{{else}}
+<h1>Please Log In Using The Button Above</h1>
+{{/if}}

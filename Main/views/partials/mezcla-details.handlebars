@@ -1,0 +1,83 @@
+       <div class="hero">
+      <h1>{{name}}</h1>
+    </div>
+   <div class="container-fluid">
+      <container class="content">
+        <div class="mezcal">
+          <div
+            class="type-wrapper p-5 m-2 p-md-3 m-md-1 p-lg-2 d-flex flex-wrap"
+          >
+            <div class="text-wrapper d-flex col-12 col-md-5">
+              <div class="column-text flex-wrap text-white">
+                <h2 class="mezcal-title">{{agave}}</h2>
+                <p class="description justify-content-center">
+                    {{!-- JV: commenting out description for right now until we know what we want to render --}}
+                  {{!-- Hand-crafted on a tropical hillside surrounded by fruit trees
+                  and rose bushes in the village of Santa Maria Albarradas.
+                  Naturally fermented and twice distilled in wood-fired copper
+                  stills. Nose of banana taffy and spun sugar. Palate of
+                  passionfruit, marzipan and dark green herbs. Finishes with
+                  hints of cinnamon and honeysuckle. --}}
+                </p>
+                <div class="more-info navbar-expand-lg navbar-light px-2">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#learn-more"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span
+                      class="navbar-toggler-icon d-flex justify-content-center"
+                    ></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="learn-more">
+                    <ul class="navbar-nav" id="learn-list">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                          ><h4>ABV:</h4>
+                          {{abv}}</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Agave:</h4>
+                          {{agave}}</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Aroma:</h4>
+                          {{aroma}}</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Pallet:</h4>
+                          {{pallet}}
+                        </a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"
+                          ><h4>Style:</h4>
+                          {{style}}
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{!-- JV: commenting out image for now until we know what we want to render--}}
+                        {{!-- <div class="column-image d-flex m-1 col-12 col-md-5">
+              <p class="bottle justify-content-center">
+                <img
+                  src="./assets/images/TEP-1080x325-1-308x1024.png"
+                  alt="bottle of del maguey tepaxtate"
+                  style="height: 540px; width: 154px"
+                />
+              </p>
+            </div> --}}
+          </div>
