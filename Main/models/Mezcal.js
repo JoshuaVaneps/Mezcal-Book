@@ -39,6 +39,9 @@ Mezcal.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        isManager: {
+            type: DataTypes.BOOLEAN,
+        },
     },
     {
         sequelize,
