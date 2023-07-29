@@ -1,13 +1,17 @@
-const router = require('express').Router();
-const { Mezcal } = require('../../models');
-const withAuth = require('../../utlities/auth');
+const router = require("express").Router();
+const { Mezcal } = require("../../models");
+const withAuth = require("../../utlities/auth");
 
-router.post('/addMezcal', withAuth, async (req, res) => {
+router.post("/addMezcal", withAuth, async (req, res) => {
   try {
     const newMezcal = await Mezcal.create({
       name: req.body.name,
+      style: req.body.style,
       agave: req.body.agave,
       abv: req.body.abv,
+      origin: req.body.origin,
+      aroma: req.body.aroma,
+      pallet: req.body.pallet,
       isManager: req.body.isManager,
     });
 
@@ -17,7 +21,7 @@ router.post('/addMezcal', withAuth, async (req, res) => {
   }
 });
 
-router.delete('/:id', withAuth, async (req, res) => {
+router.delete("/:id", withAuth, async (req, res) => {
   try {
     const mezcalData = await Mezcal.destroy({
       where: {
@@ -26,7 +30,7 @@ router.delete('/:id', withAuth, async (req, res) => {
     });
 
     if (!mezcalData) {
-      res.status(404).json({ message: 'No Mezcal found with this id!' });
+      res.status(404).json({ message: "No Mezcal found with this id!" });
       return;
     }
 
