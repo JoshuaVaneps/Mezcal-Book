@@ -29,3 +29,12 @@ async function newFormHandler(event) {
 document
   .querySelector('.new-dish-form')
   .addEventListener('submit', newFormHandler);
+
+  // name: req.body.name,
+  //     style: req.body.style,
+  //     agave: req.body.agave,
+  //     abv: req.body.abv,
+  //     origin: req.body.origin,
+  //     aroma: req.body.aroma,
+  //     pallet: req.body.pallet,
+  //     isManager: req.body.isManager,
