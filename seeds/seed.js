@@ -1,4 +1,4 @@
-const sequelize = require("../Main/config/connection");
+const sequelize = require("../config/connection");
 const seedMezcal = require("./mezcals.js");
 
 const seedAll = async () => {

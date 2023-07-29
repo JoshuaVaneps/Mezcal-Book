@@ -1,4 +1,4 @@
-const { Mezcal } = require("../Main/models");
+const { Mezcal } = require("../models");
 
 const mezcalData = [
   {
