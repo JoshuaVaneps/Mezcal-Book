@@ -4,12 +4,14 @@ const withAuth = require("../utlities/auth");
 
 router.get("/", async (req, res) => {
   try {
-    // Get all mezcals and JOIN with user data
+    // Get all Mezcals and JOIN with user data
     const mezcalData = await Mezcal.findAll({
       include: [
         {
           model: Mezcal,
-          attributes: ["name"],
+
+          attributes: ['name'],
+
         },
       ],
     });
@@ -18,9 +20,11 @@ router.get("/", async (req, res) => {
     const mezcals = mezcalData.map((mezcal) => mezcal.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render("homepage", {
-      mezcals,
-      logged_in: req.session.logged_in,
+
+    res.render('homepage', { 
+      mezcals, 
+      logged_in: req.session.logged_in 
+
     });
   } catch (err) {
     res.status(500).json(err);
@@ -28,8 +32,9 @@ router.get("/", async (req, res) => {
 });
 
 router.get("models/Mezcal/:id", withAuth, async (req, res) => {
+
   try {
-    const mezcalData = await Mezcal.findByPk(req.params.id, {
+    const mezcalData = await Project.findByPk(req.params.id, {
       include: [
         {
           model: User,
@@ -38,11 +43,14 @@ router.get("models/Mezcal/:id", withAuth, async (req, res) => {
       ],
     });
 
-    const mezcal = mezcalData.get({ plain: true });
+    const project = mezcalData.get({ plain: true });
+
+
 
     res.render("mezcal", {
       ...mezcal,
       logged_in: req.session.logged_in,
+
     });
   } catch (err) {
     res.status(500).json(err);
@@ -54,8 +62,10 @@ router.get("/profile", withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
+
       attributes: { exclude: ["password"] },
       include: [{ model: Mezcal }],
+
     });
 
     const user = userData.get({ plain: true });
