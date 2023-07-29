@@ -1,8 +1,9 @@
 const router = require('express').Router();
-const userRoutes = require('./userRoutes');
-const projectRoutes = require('./projectRoutes');
 
-router.use('/users', userRoutes);
-router.use('/projects', projectRoutes);
+const userRoutes = require('./userRoutes');
+const mezcalRoutes = require('./mezcalRoutes');
+
+router.use('/api', userRoutes);
+router.use('/mezcal', mezcalRoutes);
 
 module.exports = router;
