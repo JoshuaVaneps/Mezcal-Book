@@ -1,55 +1,52 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Mezcal extends Model {}
 
 Mezcal.init(
-    {
-        id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            primaryKey: true,
-            autoIncrement: true,
-        },
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        style: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        agave: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        abv: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-        origin: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        aroma: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        pallet: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        isManager: {
-            type: DataTypes.BOOLEAN,
-        },
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
     },
-    {
-        sequelize,
-        timestamps: false,
-        freezeTableName: true,
-        underscored: true,
-        modelName: 'mezcal',
-    }
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    style: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    agave: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    abv: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    origin: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    aroma: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    pallet: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+  },
+  {
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "mezcal",
+  }
 );
 
 module.exports = Mezcal;
