@@ -28,9 +28,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("models/Mezcal/:id", withAuth, async (req, res) => {
+router.get("/Mezcal/:id", withAuth, async (req, res) => {
   try {
-    const mezcalData = await Project.findByPk(req.params.id, {
+    const mezcalData = await Mezcal.findByPk(req.params.id, {
       include: [
         {
           model: User,
@@ -39,7 +39,7 @@ router.get("models/Mezcal/:id", withAuth, async (req, res) => {
       ],
     });
 
-    const project = mezcalData.get({ plain: true });
+    const mezcal = mezcalData.get({ plain: true });
 
     res.render("mezcal", {
       ...mezcal,
@@ -71,9 +71,8 @@ router.get("/profile", withAuth, async (req, res) => {
 });
 
 router.get("/login", (req, res) => {
-  // If the user is already logged in, redirect the request to another route
-  if (req.session.logged_in) {
-    res.redirect("/profile");
+  if (req.session.loggedIn) {
+    res.redirect("/");
     return;
   }
 
