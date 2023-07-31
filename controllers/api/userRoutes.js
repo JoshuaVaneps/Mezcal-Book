@@ -66,4 +66,16 @@ router.post("/logout", (req, res) => {
   }
 });
 
+router.get('/all', async (req, res) => {
+  try {
+    const allUsers = await User.findAll();
+    console.log(allUsers);
+    res.json(allUsers)
+  }
+  catch {
+    console.log("Error fetching user data:", error);
+    res.status(500).json({ error: "Failed to fetch user data" });
+  }
+})
+
 module.exports = router;
