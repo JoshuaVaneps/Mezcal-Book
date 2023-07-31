@@ -53,7 +53,7 @@
             {{#if loggedIn}}
               <button id="logout" class="nav-link">Logout</button>
             {{else}}
-              <a href="/login">Login</a>
+              <a href="/login" class="nav-link">Login</a>
             {{/if}}
           </li>
           <li class="nav-item">
@@ -78,10 +78,11 @@
     <main>
       {{{body}}}
     </main>
-    <script src="js/logout.js"></script>
-    <script src="js/login.js"></script>
+    {{#if loggedIn}}
+      <script src="/js/logout.js"></script>
+    {{/if}}
+    {{! <script src="js/login.js"></script> }}
     <script src="js/search-js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script

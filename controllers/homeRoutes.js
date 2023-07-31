@@ -21,14 +21,14 @@ router.get("/", async (req, res) => {
 
     res.render("homepage", {
       mezcals,
-      // logged_in: req.session.logged_in
+      loggedIn: req.session.loggedIn,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get("/Mezcal/:id", withAuth, async (req, res) => {
+router.get("/mezcal/:id", withAuth, async (req, res) => {
   try {
     const mezcalData = await Mezcal.findByPk(req.params.id, {
       include: [
@@ -43,7 +43,7 @@ router.get("/Mezcal/:id", withAuth, async (req, res) => {
 
     res.render("mezcal", {
       ...mezcal,
-      logged_in: req.session.logged_in,
+      loggedIn: req.session.loggedIn,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -63,7 +63,7 @@ router.get("/profile", withAuth, async (req, res) => {
 
     res.render("profile", {
       ...user,
-      logged_in: true,
+      loggedIn: true,
     });
   } catch (err) {
     res.status(500).json(err);

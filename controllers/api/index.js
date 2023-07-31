@@ -4,6 +4,6 @@ const userRoutes = require("./userRoutes");
 const mezcalRoutes = require("./mezcalRoutes");
 
 router.use("/user", userRoutes);
-router.use("/api/mezcal", mezcalRoutes);
+router.use("/mezcal", mezcalRoutes);
 
 module.exports = router;
