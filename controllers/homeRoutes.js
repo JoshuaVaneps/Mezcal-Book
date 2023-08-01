@@ -22,6 +22,7 @@ router.get("/", async (req, res) => {
     res.render("homepage", {
       mezcals,
       loggedIn: req.session.loggedIn,
+      isManager: req.session.isManager,
     });
   } catch (err) {
     res.status(500).json(err);
