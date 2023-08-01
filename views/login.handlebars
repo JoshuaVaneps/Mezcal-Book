@@ -1,21 +1,6 @@
-<div class="row justify-space-between-md">
-  <div class="login-card">
-    <h2 class="page-title">Login</h2>
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">Email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <div class="form-group">
-        <label for="password-login">Password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
-  </div>
-  <div class="login-card">
+<div class="row justify-space-between-md m-3 ">
+  {{> login-form}}
+  <div class="login-card ">
     <h2 class="page-title">Signup</h2>
     <form class="form signup-form">
       <div class="form-group">

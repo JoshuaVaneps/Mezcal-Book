@@ -4,9 +4,17 @@
 {{> mezcal-details}}
 {{/each}}
 {{else}}
-<h1>Please Log In Using The Button Above</h1>
+<div class=" p-2, mt-5 mb-2 justify-center">
+<h1 class="py-5">Please Log In Using The Form Below:</h1>
+{{!-- <a class="nav-link justify-center p-4 d-flex" href="/login" >  --}}
+{{!-- <h1 class="border border-dark rounded bg-dark text-white p-3 mb-4">log in or sign up</h1></a> --}}
+<div class="d-flex justify-center">
+{{> login-form}}
+</div>
+</div>
 {{/if}}
 
 
 <script src="js/swiper-bundle.min.js"></script>
-   <script src="/js/logout.js"></script>
+<script src="/js/login.js"></script>
+<script src="/js/logout.js"></script>
