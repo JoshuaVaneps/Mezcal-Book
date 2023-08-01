@@ -3,76 +3,82 @@
 {{> mezcal-details}}
 {{/each}} --}}
 
-  <!-- This is the form for adding a new dish -->
+<!-- This is the form for adding a new dish -->
+<div class="row justify-center-md pt-2">
   <div class="add-mezcal-container">
-  <h2>
-    Add Mezcal
-  </h2>
-  <form class="add-mezcal-form">
-    <label for="name">
-      New Mezcal Name:
-    </label>
-    <br />
-    <textarea id="name" name="name" rows="2" cols="30">
-      {{name}}
-    </textarea>
-    <br />
-    <label for="style">
-      New Mezcal Style:
-    </label>
-    <br />
-    <textarea id="style" name="style" rows="5" cols="30">
-      {{style}}
-    </textarea>
-    <br />
-    <label for="agave">
-      New Mezcal Agave:
-    </label>
-    <br />
-    <textarea id="agave" name="agave" rows="2" cols="30">
-      {{agave}}
-    </textarea>
-    <br />
-    <label for="abv">
-      New Mezcal ABV:
-    </label>
-    <br />
-    <textarea id="abv" name="abv" rows="5" cols="30">
-      {{abv}}
-    </textarea>
-    <br />
-    <label for="origin">
-      New Mezcal Origin:
-    </label>
-    <br />
-    <textarea id="origin" name="origin" rows="2" cols="30">
-      {{origin}}
-    </textarea>
-    <br />
-    <label for="aroma">
-      New Mezcal Aroma:
-    </label>
-    <br />
-    <textarea id="aroma" name="aroma" rows="5" cols="30">
-      {{aroma}}
-    </textarea>
-    <br />
-    <label for="pallet">
-      New Mezcal Pallet:
-    </label>
-    <br />
-    <textarea id="pallet" name="pallet" rows="2" cols="30">
-      {{pallet}}
-    </textarea>
-    <br />
-    <br />
-    <input type="hidden" name="isManager" id="isManager" value="{{isManager}}"/>
+    <h2 class="page-title">
+      Add Mezcal
+    </h2>
+    <form class="add-mezcal-form">
+      <label for="name">
+        New Mezcal Name:
+      </label>
+      <br />
+      <textarea id="name" name="name" rows="2" cols="30">
+        {{name}}
+      </textarea>
+      <br />
+      <label for="style">
+        New Mezcal Style:
+      </label>
+      <br />
+      <textarea id="style" name="style" rows="5" cols="30">
+        {{style}}
+      </textarea>
+      <br />
+      <label for="agave">
+        New Mezcal Agave:
+      </label>
+      <br />
+      <textarea id="agave" name="agave" rows="2" cols="30">
+        {{agave}}
+      </textarea>
+      <br />
+      <label for="abv">
+        New Mezcal ABV:
+      </label>
+      <br />
+      <textarea id="abv" name="abv" rows="5" cols="30">
+        {{abv}}
+      </textarea>
+      <br />
+      <label for="origin">
+        New Mezcal Origin:
+      </label>
+      <br />
+      <textarea id="origin" name="origin" rows="2" cols="30">
+        {{origin}}
+      </textarea>
+      <br />
+      <label for="aroma">
+        New Mezcal Aroma:
+      </label>
+      <br />
+      <textarea id="aroma" name="aroma" rows="5" cols="30">
+        {{aroma}}
+      </textarea>
+      <br />
+      <label for="pallet">
+        New Mezcal Pallet:
+      </label>
+      <br />
+      <textarea id="pallet" name="pallet" rows="2" cols="30">
+        {{pallet}}
+      </textarea>
+      <br />
+      <br />
+      <input
+        type="hidden"
+        name="isManager"
+        id="isManager"
+        value="{{isManager}}"
+      />
       <button type="submit" value="Submit">
         Submit
       </button>
     </form>
   </div>
 </div>
-
+</div>
 
 <script src="/js/add-Mezcal.js"></script>
