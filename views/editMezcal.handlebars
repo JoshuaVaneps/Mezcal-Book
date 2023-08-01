@@ -9,7 +9,7 @@
   </div>
   <div class="card-body">
     <p>
-      style:
+      Style:
       {{style}}
     </p>
     <p>
@@ -35,11 +35,11 @@
   </div>
 </div>
 
-<div class="edit-Mezcal-container">
+<div class="edit-mezcal-container">
   <h2>
     Update Mezcal
   </h2>
-  <form class="editMezcal-form">
+  <form class="edit-Mezcal-form">
     <label for="name">
       New Mezcal Name:
     </label>
@@ -97,14 +97,16 @@
     </textarea>
     <br />
     <br />
-    <input type="checkbox" id="has_nuts" name="has_nuts" value="true" />
-    <label for="has_nuts">
-      Check box if this Mezcal contains nuts
-    </label>
-    <br />
+    <input
+      type="hidden"
+      name="isManager"
+      id="isManager"
+      value="{{isManager}}"
+    />
     <button type="submit" value="Submit">
       Submit
     </button>
   </form>
 </div>
+<script src="js/script.js"></script>
 <script src="/js/editMezcal.js"></script>

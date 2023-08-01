@@ -3,8 +3,9 @@ const Mezcal = require("../../models/Mezcal");
 const withAuth = require("../../utlities/auth");
 const { User } = require("../../models/User");
 
-router.post("/addMezcal", withAuth, async (req, res) => {
+router.post("/addMezcal", async (req, res) => {
   try {
+    console.log(req.body);
     if (!req.body.isManager) {
       return res
         .status(403)
@@ -34,7 +35,7 @@ router.put("/:id", withAuth, async (req, res) => {
         .status(403)
         .json({ error: "You do not have permission to add a new Mezcal." });
     } else {
-      const upDateMezcal = await Mezcal.update(
+      const updateMezcal = await Mezcal.update(
         {
           name: req.body.name,
           style: req.body.style,
@@ -50,7 +51,7 @@ router.put("/:id", withAuth, async (req, res) => {
           },
         }
       );
-      res.status(200).json(upDateMezcal);
+      res.status(200).json(updateMezcal);
     }
   } catch (err) {
     res.status(500).json(err);
