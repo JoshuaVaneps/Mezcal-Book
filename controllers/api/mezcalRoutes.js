@@ -92,12 +92,6 @@ router.delete("/:id", withAuth, async (req, res) => {
           id: req.params.id,
         },
       });
-
-      if (!mezcalData) {
-        res.status(404).json({ message: "No Mezcal found with this id!" });
-        return;
-      }
-
       res.status(200).json(mezcalData);
     }
   } catch (err) {

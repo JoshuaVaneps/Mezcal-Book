@@ -67,11 +67,10 @@ async function deleteFormHandler(event) {
   }
 }
 
-
 document
   .querySelector(".edit-mezcal-form")
   .addEventListener("submit", editFormHandler);
 
 document
-  .querySelector(".delete-mezcal-form")
-  .addEventListener("delete", deleteFormHandler);
+  .querySelector("#delete-mezcal-btn")
+  .addEventListener("click", deleteFormHandler);
