@@ -58,6 +58,19 @@ router.get("/edit-mezcal/:id", async (req, res) => {
   }
 });
 
+router.get('/tequila', async (req, res) => {
+  res.render('under_construction')
+})
+
+router.get('/cocktail', async (req, res) => {
+  res.render('under_construction')
+})
+
+router.get('/mezcal', async (req, res) => {
+  res.render('homepage')
+})
+
+
 // JV: I dont think we need this route
 // router.get("/mezcal/:id", withAuth, async (req, res) => {
 //   try {
