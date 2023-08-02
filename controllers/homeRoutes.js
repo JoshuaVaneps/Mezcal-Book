@@ -48,8 +48,8 @@ router.get("/edit-mezcal/:id", async (req, res) => {
       return;
     }
     const mezcal = mezcalData.get({ plain: true });
-    res.render("mezcal-update", {
-      mezcal,
+    res.render("editMezcal", {
+      ...mezcal,
       loggedIn: req.session.loggedIn,
       isManager: req.session.isManager,
     });
