@@ -1,6 +1,11 @@
 <h1>Edit Mezcal</h1>
+{{#if isManager}}
 <div class="row justify-space-between-md m-3 my-sm-5 mx-lg-5">
+  {{else}}
+<div class="row d-flex justify-content-center m-3 my-sm-5 mx-lg-5">
+{{/if}}
 {{> mezcal-update}}
+{{#if isManager}}
   <div
     class="add-mezcal-container row justify-center px-sm-0 px-md-4 px-lg-2 py-4"
   >
@@ -154,6 +159,7 @@
       </div>
     </form>
   </div>
+  {{/if}}
 </div>
 
 <script src="/js/editMezcal.js"></script>
