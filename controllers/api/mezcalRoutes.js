@@ -3,6 +3,28 @@ const Mezcal = require("../../models/Mezcal");
 const withAuth = require("../../utlities/auth");
 const { User } = require("../../models/User");
 
+router.get("/", async (req, res) => {
+  try {
+    const allMezcals = await Mezcal.findAll();
+    console.log(allMezcals);
+    res.json(allMezcals);
+  } catch {
+    console.log("Error fetching mezcal data:", error);
+    res.status(500).json({ error: "Failed to fetch mezcal data" });
+  }
+});
+
+router.get("/:id", async (req, res) => {
+  try {
+    const mezcalData = await Mezcal.findByPk(req.params.id);
+    console.log(mezcalData);
+    res.json(mezcalData);
+  } catch {
+    console.log("Error fetching mezcal data:", error);
+    res.status(500).json({ error: "Failed to fetch mezcal data" });
+  }
+});
+
 router.post("/addMezcal", async (req, res) => {
   try {
     console.log(req.body);
@@ -63,11 +85,11 @@ router.delete("/:id", withAuth, async (req, res) => {
     if (!req.body.isManager) {
       return res
         .status(403)
-        .json({ error: "You do not have permission to add a new Mezcal." });
+        .json({ error: "You do not have permission to delete a Mezcal." });
     } else {
       const mezcalData = await Mezcal.destroy({
         where: {
-          name: req.body.name,
+          id: req.params.id,
         },
       });
 

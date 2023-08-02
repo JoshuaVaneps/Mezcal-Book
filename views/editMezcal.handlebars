@@ -1,109 +1,157 @@
-<div class="row justify-space-between-md">
-  <div class="edit-mezcal-container">
-    <div class="mezcal-card">
-      <div class="Mezcal-card-header">
-        {{name}}
-      </div>
-      <div class="card-body">
-        <p>
-          Style:
-          {{style}}
-        </p>
-        <p>
-          Agave:
-          {{agave}}
-        </p>
-        <p>
-          ABV:
-          {{abv}}
-        </p>
-        <p>
-          Origin:
-          {{origin}}
-        </p>
-        <p>
-          Aroma:
-          {{aroma}}
-        </p>
-        <p>
-          Pallet:
-          {{pallet}}
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="edit-mezcal-container">
-    <h2>
+<h1>Edit Mezcal</h1>
+<div class="row justify-space-between-md m-3 my-sm-5 mx-lg-5">
+{{> mezcal-update}}
+  <div
+    class="add-mezcal-container row justify-center px-sm-0 px-md-4 px-lg-2 py-4"
+  >
+    <h2 class="page-title d-flex justify-content-center fw-bold">
       Update Mezcal
     </h2>
-    <form class="edit-Mezcal-form">
-      <label for="name">
-        New Mezcal Name:
-      </label>
-      <br />
-      <textarea id="name" name="name" rows="2" cols="30">
-        {{name}}
-      </textarea>
-      <br />
-      <label for="style">
-        New Mezcal Style:
-      </label>
-      <br />
-      <textarea id="style" name="style" rows="5" cols="30">
-        {{style}}
-      </textarea>
-      <br />
-      <label for="agave">
-        New Mezcal Agave:
-      </label>
-      <br />
-      <textarea id="agave" name="agave" rows="2" cols="30">
-        {{agave}}
-      </textarea>
-      <br />
-      <label for="abv">
-        New Mezcal ABV:
-      </label>
-      <br />
-      <textarea id="abv" name="abv" rows="5" cols="30">
-        {{abv}}
-      </textarea>
-      <br />
-      <label for="origin">
-        New Mezcal Origin:
-      </label>
-      <br />
-      <textarea id="origin" name="origin" rows="2" cols="30">
-        {{origin}}
-      </textarea>
-      <br />
-      <label for="aroma">
-        New Mezcal Aroma:
-      </label>
-      <br />
-      <textarea id="aroma" name="aroma" rows="5" cols="30">
-        {{aroma}}
-      </textarea>
-      <br />
-      <label for="pallet">
-        New Mezcal Pallet:
-      </label>
-      <br />
-      <textarea id="pallet" name="pallet" rows="2" cols="30">
-        {{pallet}}
-      </textarea>
-      <br />
-      <br />
-      <input
-        type="hidden"
-        name="isManager"
-        id="isManager"
-        value="{{isManager}}"
-      />
-      <button type="submit" value="Submit">
-        Submit
-      </button>
+    <form class="edit-mezcal-form">
+      <div class="form-group px-md-2 px-lg-5">
+        <label
+          for="name"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Name:
+        </label>
+
+        <input
+          class="form-input"
+          id="name"
+          name="name"
+          rows="1"
+          cols="30"
+          placeholder="{{name}}"
+        />
+
+        <label
+          for="style"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Style:
+        </label>
+
+        <input
+          class="form-input"
+          id="style"
+          name="style"
+          rows="1"
+          cols="30"
+          placeholder="{{style}}"
+        />
+
+        <label
+          for="agave"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Agave:
+        </label>
+
+        <input
+          class="form-input"
+          id="agave"
+          name="agave"
+          rows="1"
+          cols="30"
+          placeholder="{{agave}}"
+        />
+
+        <label
+          for="abv"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal ABV:
+        </label>
+
+        <input
+          class="form-input"
+          id="abv"
+          name="abv"
+          rows="1"
+          cols="30"
+          placeholder="{{abv}}"
+          type="number"
+          min="0"
+          max="100"
+          step="1"
+        />
+
+        <label
+          for="origin"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Origin:
+        </label>
+
+        <input
+          class="form-input"
+          id="origin"
+          name="origin"
+          rows="2"
+          cols="30"
+          placeholder=" {{origin}}"
+        />
+
+        <label
+          for="aroma"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Aroma:
+        </label>
+
+        <input
+          class="form-input"
+          id="aroma"
+          name="aroma"
+          rows="2"
+          cols="30"
+          placeholder="{{aroma}}"
+        />
+
+        <label
+          for="pallet"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Pallet:
+        </label>
+
+        <input
+          class="form-input"
+          id="pallet"
+          name="pallet"
+          rows="2"
+          cols="30"
+          placeholder="{{pallet}}"
+        />
+        <br />
+        <input
+          type="hidden"
+          name="isManager"
+          id="isManager"
+          value="{{isManager}}"
+        />
+        <div class="row d-flex justify-content-center">
+          <button
+            type="submit"
+            value="Submit"
+            class="col-3 mx-2 px-2 py-1 rounded btn btn-success active"
+            id="edit-mezcal-submit-btn"
+          >
+            Submit
+          </button>
+          <form class="delete-mezcal-form">
+          <button
+            type="delete"
+            value="Delete"
+            class="col-3 mx-2 px-2 py-1 rounded btn btn-danger active"
+            id="delete-mezcal-btn"
+          >
+            Delete
+          </button>
+          </form>
+        </div>
+      </div>
     </form>
   </div>
 </div>

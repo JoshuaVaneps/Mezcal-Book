@@ -39,6 +39,39 @@ async function editFormHandler(event) {
   }
 }
 
+async function deleteFormHandler(event) {
+  event.preventDefault();
+
+  const isManager = document.querySelector("#isManager").value;
+
+  // window.location gives us access to the URL. We then use the .split() method to access the number at the end of the URL and set that equal to id.
+  const id = window.location.toString().split("/")[
+    window.location.toString().split("/").length - 1
+  ];
+
+  const response = await fetch(`/api/mezcal/${id}`, {
+    method: "DELETE",
+    body: JSON.stringify({
+      isManager,
+    }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+
+  if (response.ok) {
+    alert("Mezcal deleted successfully");
+    document.location.replace(`/`);
+  } else {
+    alert("Failed to delete mezcal");
+  }
+}
+
+
 document
   .querySelector(".edit-mezcal-form")
   .addEventListener("submit", editFormHandler);
+
+document
+  .querySelector(".delete-mezcal-form")
+  .addEventListener("delete", deleteFormHandler);

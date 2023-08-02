@@ -4,7 +4,6 @@ const mezcalData = [
   {
     name: "Banhez Espadin & Barril",
     style: "Ensamble/Joven",
-    // josh changed from espadin and barrill to just espadin
     agave: "Espadin & Barrill",
     abv: 42,
     origin: "Ejutla, Oaxaca",
