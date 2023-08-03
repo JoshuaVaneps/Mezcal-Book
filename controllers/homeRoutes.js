@@ -6,18 +6,10 @@ router.get("/", async (req, res) => {
   try {
     // Get all Mezcals and JOIN with user data
     const mezcalData = await Mezcal.findAll({
-      // include: [
-      //   {
-      //     model: Mezcal,
-      //     attributes: ['name'],
-      //   },
-      // ],
     });
 
     // Serialize data so the template can read it
     const mezcals = mezcalData.map((mezcal) => mezcal.get({ plain: true }));
-
-    // Pass serialized data and session flag into template
 
     res.render("homepage", {
       mezcals,
@@ -69,51 +61,6 @@ router.get('/cocktail', async (req, res) => {
 router.get('/mezcal', async (req, res) => {
   res.render('homepage')
 })
-
-
-// JV: I dont think we need this route
-// router.get("/mezcal/:id", withAuth, async (req, res) => {
-//   try {
-//     const mezcalData = await Mezcal.findByPk(req.params.id, {
-//       include: [
-//         {
-//           model: User,
-//           attributes: ["name"],
-//         },
-//       ],
-//     });
-
-//     const mezcal = mezcalData.get({ plain: true });
-
-//     res.render("mezcal", {
-//       ...mezcal,
-//       loggedIn: req.session.loggedIn,
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
-// JV: I dont think we need this route
-// Use withAuth middleware to prevent access to route
-// router.get("/profile", withAuth, async (req, res) => {
-//   try {
-//     // Find the logged in user based on the session ID
-//     const userData = await User.findByPk(req.session.user_id, {
-//       attributes: { exclude: ["password"] },
-//       include: [{ model: Mezcal }],
-//     });
-
-//     const user = userData.get({ plain: true });
-
-//     res.render("profile", {
-//       ...user,
-//       loggedIn: true,
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
 
 router.get("/login", (req, res) => {
   if (req.session.loggedIn) {
