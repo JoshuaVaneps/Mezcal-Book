@@ -39,6 +39,11 @@ Mezcal.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    image: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      defaultValue: 'https://photos.google.com/share/AF1QipMz5sG4_j0Z7W7T30hLXB0gCMWRwYxw1Yz4w22Dw9JCbluo3EstAeuvlU8SF4sNLw/photo/AF1QipM7hodKHvW9CBviWsyfttqDL3KsfPFx8Q8g5lk6?key=VHN5NExxQV91QmRiMXdkWmFNVDg3U2tkcmxMUUJB'
+    }
   },
   {
     sequelize,
