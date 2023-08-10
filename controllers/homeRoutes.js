@@ -81,4 +81,8 @@ router.post("/logout", (req, res) => {
   }
 });
 
+router.get("/image-upload", (req, res) => {
+res.render("image-upload");
+})
+
 module.exports = router;
