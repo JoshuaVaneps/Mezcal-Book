@@ -42,7 +42,7 @@ Mezcal.init(
     image: {
       type: DataTypes.STRING,
       allowNull: true,
-      defaultValue: 'https://photos.google.com/share/AF1QipMz5sG4_j0Z7W7T30hLXB0gCMWRwYxw1Yz4w22Dw9JCbluo3EstAeuvlU8SF4sNLw/photo/AF1QipM7hodKHvW9CBviWsyfttqDL3KsfPFx8Q8g5lk6?key=VHN5NExxQV91QmRiMXdkWmFNVDg3U2tkcmxMUUJB'
+      defaultValue: 'https://lh3.googleusercontent.com/pw/AIL4fc8lL_iVZNLkLW0N6SPPsHaeVpGix_EDpg8QxrfPaP3_K7qwcW_O3GI-GfTjvu8fGIhd_4Rd4KAe7rWsG2U2NhsdjPBLrviqa2dxt_05sTQUaBdbphzLGDuLrH6jrqxCwtnVKY17CVkypN1WexBRor6T=w779-h652-s-no?authuser=0'
     }
   },
   {
