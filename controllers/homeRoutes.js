@@ -5,8 +5,7 @@ const withAuth = require("../utlities/auth");
 router.get("/", async (req, res) => {
   try {
     // Get all Mezcals and JOIN with user data
-    const mezcalData = await Mezcal.findAll({
-    });
+    const mezcalData = await Mezcal.findAll({});
 
     // Serialize data so the template can read it
     const mezcals = mezcalData.map((mezcal) => mezcal.get({ plain: true }));
@@ -50,17 +49,17 @@ router.get("/edit-mezcal/:id", async (req, res) => {
   }
 });
 
-router.get('/tequila', async (req, res) => {
-  res.render('under_construction')
-})
+router.get("/tequila", async (req, res) => {
+  res.render("under_construction");
+});
 
-router.get('/cocktail', async (req, res) => {
-  res.render('under_construction')
-})
+router.get("/cocktail", async (req, res) => {
+  res.render("under_construction");
+});
 
-router.get('/mezcal', async (req, res) => {
-  res.render('homepage')
-})
+router.get("/mezcal", async (req, res) => {
+  res.render("homepage");
+});
 
 router.get("/login", (req, res) => {
   if (req.session.loggedIn) {
@@ -82,7 +81,7 @@ router.post("/logout", (req, res) => {
 });
 
 router.get("/image-upload", (req, res) => {
-res.render("image-upload");
-})
+  res.render("image-upload");
+});
 
 module.exports = router;
