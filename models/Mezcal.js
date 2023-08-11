@@ -11,6 +11,10 @@ Mezcal.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    brand: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
