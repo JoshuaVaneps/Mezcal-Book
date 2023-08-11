@@ -86,8 +86,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_OCWewmzURnWcbse--7-sFHkIab60PEj_19wqHjpcpyNpZuErz40K3PmvFpTFBdO1_PyFzYkYEqAw2vlUk101cMQNnmpIvsSpShvfu-xWItZt4RGsKbvryaFPcxJM4XHJM5AyWpmdVpJdvnSCpVksU=w433-h577-s-no?authuser=0",
   },
   {
-    brand: "Bruxo #2",
-    name: "Bruxo #2",
+    brand: "Bruxo ",
+    name: "#2 Espadin & Barril",
     style: "Abocado, Ensamble",
     agave: "Espadin, Barril",
     abv: 46,
@@ -469,7 +469,7 @@ const mezcalData = [
   },
   {
     brand: "La Higuera",
-    name: "La Higuera",
+    name: "Sotol",
     style: "Joven",
     agave: "Dasylirion, Wheeleri",
     abv: 48,
@@ -713,7 +713,7 @@ const mezcalData = [
   },
   {
     brand: "Mina Real",
-    name: "Joven",
+    name: "Blanco",
     style: "Joven",
     agave: "Espadin",
     abv: 45,
@@ -725,7 +725,7 @@ const mezcalData = [
   },
   {
     brand: "Montelobos",
-    name: "Joven",
+    name: "Espadin",
     style: "Joven",
     agave: "Espadin",
     abv: 43,
@@ -825,7 +825,7 @@ const mezcalData = [
   },
   {
     brand: "Por Siempre",
-    name: "Joven",
+    name: "Sotol",
     style: "Joven",
     agave: "Sotol",
     abv: 45,
