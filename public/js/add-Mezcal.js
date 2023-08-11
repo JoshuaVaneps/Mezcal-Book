@@ -1,6 +1,7 @@
 async function newFormHandler(event) {
   event.preventDefault();
 
+  const mezcalBrand = document.querySelector("#brand").value;
   const mezcalName = document.querySelector("#name").value;
   const mezcalStyle = document.querySelector("#style").value;
   const mezcalAgave = document.querySelector("#agave").value;
@@ -13,6 +14,7 @@ async function newFormHandler(event) {
   const response = await fetch(`/api/mezcal/addMezcal`, {
     method: "POST",
     body: JSON.stringify({
+      brand: mezcalBrand,
       name: mezcalName,
       style: mezcalStyle,
       agave: mezcalAgave,

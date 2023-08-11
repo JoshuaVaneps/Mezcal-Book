@@ -1,6 +1,7 @@
 async function editFormHandler(event) {
   event.preventDefault();
 
+  const mezcalBrand = document.querySelector("#brand").value;
   const mezcalName = document.querySelector("#name").value;
   const mezcalStyle = document.querySelector("#style").value;
   const mezcalAgave = document.querySelector("#agave").value;
@@ -18,6 +19,7 @@ async function editFormHandler(event) {
   const response = await fetch(`/api/mezcal/${id}`, {
     method: "PUT",
     body: JSON.stringify({
+      brand: mezcalBrand,
       name: mezcalName,
       style: mezcalStyle,
       agave: mezcalAgave,

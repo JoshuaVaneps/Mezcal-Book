@@ -1,19 +1,35 @@
 <h1>Edit Mezcal</h1>
 {{#if isManager}}
-<div class="row justify-space-between-md m-3 my-sm-5 mx-lg-5">
+<div class="row justify-space-between-md m-3 my-sm-5  mx-lg-5">
   {{else}}
-<div class="row d-flex justify-content-center m-3 my-sm-5 mx-lg-5">
+<div class="row d-flex justify-content-center m-3 m-lg-0 my-sm-5 my-md-2 my-lg-0 mx-lg-5">
 {{/if}}
 {{> mezcal-update}}
 {{#if isManager}}
   <div
-    class="add-mezcal-container row justify-center px-sm-0 px-md-4 px-lg-2 py-4"
+    class="add-mezcal-container row justify-center px-sm-0 px-md-4 px-lg-2 py-sm-2 py-lg-0"
   >
     <h2 class="page-title d-flex justify-content-center fw-bold">
       Update Mezcal
     </h2>
     <form class="edit-mezcal-form">
       <div class="form-group px-md-2 px-lg-5">
+         <label
+          for="brand"
+          class="label-title d-flex justify-content-center text-light fw-bold text-center"
+        >
+          New Mezcal Brand:
+        </label>
+
+        <input
+          class="form-input"
+          id="brand"
+          name="brand"
+          rows="1"
+          cols="30"
+          placeholder="{{brand}}"
+        />
+
         <label
           for="name"
           class="label-title d-flex justify-content-center text-light fw-bold text-center"

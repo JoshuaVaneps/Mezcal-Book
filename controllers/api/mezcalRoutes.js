@@ -34,6 +34,7 @@ router.post("/addMezcal", async (req, res) => {
         .json({ error: "You do not have permission to add a new Mezcal." });
     } else {
       const newMezcal = await Mezcal.create({
+        brand: req.body.brand,
         name: req.body.name,
         style: req.body.style,
         agave: req.body.agave,
@@ -59,6 +60,7 @@ router.put("/:id", withAuth, async (req, res) => {
     } else {
       const updateMezcal = await Mezcal.update(
         {
+          brand: req.body.brand,
           name: req.body.name,
           style: req.body.style,
           agave: req.body.agave,

@@ -1,31 +1,42 @@
-  <div class="login-card">
-    <h2 class="page-title d-flex justify-content-center fw-bold">
-      {{name}}
-    </h2>
-    <div class="row form-group px-md-2 px-lg-5 d-flex justify-content-center">
-      <h5 class="text-light fw-bold text-center py-4">
-        Style:
-        {{style}}
-      </h5>
-      <h5 class="text-light fw-bold text-center py-4">
-        Agave:
-        {{agave}}
-      </h5>
-      <h5 class="text-light fw-bold text-center py-4">
-        ABV:
-        {{abv}}
-      </h5>
-      <h5 class="text-light fw-bold text-center py-4">
-        Origin:
-        {{origin}}
-      </h5>
-      <h5 class="text-light fw-bold text-center py-4">
-        Aroma:
-        {{aroma}}
-      </h5>
-      <h5 class="text-light fw-bold text-center py-4">
-        Pallet:
-        {{pallet}}
-      </h5>
-    </div>
+<div class="login-card">
+  <h2 class="page-title d-flex justify-content-center fw-bold">
+    {{brand}}
+    -
+    {{name}}
+  </h2>
+  <div class="row form-group px-md-2 px-lg-5 d-flex justify-content-center">
+    <h5 class="text-light fw-bold text-center py-4">
+      Style:
+      {{style}}
+    </h5>
+    <h5 class="text-light fw-bold text-center py-4">
+      Agave:
+      {{agave}}
+    </h5>
+    <h5 class="text-light fw-bold text-center py-4">
+      ABV:
+      {{abv}}
+    </h5>
+    <h5 class="text-light fw-bold text-center py-4">
+      Origin:
+      {{origin}}
+    </h5>
+    <h5 class="text-light fw-bold text-center py-4">
+      Aroma:
+      {{aroma}}
+    </h5>
+    <h5 class="text-light fw-bold text-center py-4">
+      Pallet:
+      {{pallet}}
+    </h5>
+    <h5>
+      <img
+        src="{{{image}}}"
+        {{! link needs to have lh3 google user content in the beginning
+               example of how link should look: https://lh3.googleusercontent.com/pw/AIL4fc93cPpiFAgHcXvYKW2UARIqgt7bMc95emOMDaGDCRFkL4qzCgsg1EbH3yQOig2RoWwZakMRkYDesRE-63eWLfOIIavMjz4JmceS_VwZEb0RpX_9cHaQag3TzyazgR0bOfsGsEVfoNe8MKQJ10mdXR7k=w433-h577-s-no?authuser=0 }}
+        alt="bottle of {{name}}"
+        style="height: 480px; width: 100%"
+      />
+    </h5>
   </div>
+</div>
