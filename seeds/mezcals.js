@@ -2,7 +2,8 @@ const { Mezcal } = require("../models");
 
 const mezcalData = [
   {
-    name: "Banhez Espadin & Barril",
+    brand: "Banhez",
+    name: "Espadin & Barril",
     style: "Ensamble/Joven",
     agave: "Espadin & Barrill",
     abv: 42,
@@ -13,7 +14,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_kR2w4KqTHhTE7kEVs9QYQCpeplyMmkTtZvf-3KkO7Le_4Wb3FpvwkIVdTBMIpZdSlMguGRBjqd8O8njSMh77JD2NuYeBiB5aaf9qVGCkiCEnSrvaJANA_pNDG7A6Zn8-k2vPBiLeSMILhwYPINFID=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Banhez Tobala",
+    brand: "Banhez",
+    name: "Tobala",
     style: "Joven",
     agave: "Tobala",
     abv: 47,
@@ -24,7 +26,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_CmgJXULYYZ1Um8HaAEg6Og9W6o4b_2hTJsmDkMYLC8CHW2tTrZuVgtakyY1pf0gU1BCHQA3T8kamR6Rbs5NzInNH8Kspze2MOpZfW69xnFw6EftkoFozHx7QL4biIe-Y-3Afnnt8WhZo0ZBnN7FLQ=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Bozal Borrego",
+    brand: "Bozal",
+    name: "Borrego",
     style: "Pechuga",
     agave: "Castilla",
     abv: 52,
@@ -35,7 +38,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-MB1E5H9sxwG1gd5LJmF-FUZGmlaCwMzgyuQv1_-AAi3klcNTGZjD7JlE8jCLahv73iyXhQIR6o69_-jbx3cbhsXcJJEJaS7PsX8OiUKPoG0ryN-w500jpQS0dIY9aGdqUnAZ75GUa8P_dE9AyWMuf=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Bozal Chino Verde",
+    brand: "Bozal",
+    name: "Chino Verde",
     style: "Joven",
     agave: "Verde",
     abv: 48.4,
@@ -46,7 +50,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8XVKzBUinWiWEGL_CyqCfns2dDe27J5nNP2g_VLpgg7oincf7oybEKv5F4kPBCbn6-4wzQ1UHfT_80MpIF47YL3c8WLqzfjUX0OkVsfcsbg7sU1s5YZSHkLucHoYhVW5r_y_VyEU2mbzD2RicrIISk=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Bozal Cuixe",
+    brand: "Bozal",
+    name: "Cuixe",
     style: "Joven",
     agave: "Cuishe",
     abv: 47,
@@ -57,7 +62,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-P3JRC0kZ1-YcGj9ah_RFASEB0V_mmF71wWtSnsGBaV85R5DbMLY7rK-8M7GMHhzPqWNP3NWXoBGu5DzLaznA09budMecZrHYwSEb3JX5vrj44d0Dk61BtyvZsxlaVczqfMQtDX578YHPKaUDLJ_3J=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Bozal Sacatoro",
+    brand: "Bozal",
+    name: "Sacatoro",
     style: "Joven",
     agave: "Sacatoro",
     abv: 44.8,
@@ -68,7 +74,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-ZgoZGMPqlvQdQa-FX2J50rca1x5LF5Xp8_EWP1Wbmerf3hHg1vQNI_y-Ia_fr75BMPa5hkA27kELPY1DNVeuLAM_9nj_YjWajODp8ciMV-vdssv9yMQr78VX07jiQt9QDZsu0W0G2D1TL_036S2Sr=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Bozal Tobasiche",
+    brand: "Bozal",
+    name: "Tobasiche",
     style: "Joven",
     agave: "Tobaziche",
     abv: 47,
@@ -79,8 +86,9 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_OCWewmzURnWcbse--7-sFHkIab60PEj_19wqHjpcpyNpZuErz40K3PmvFpTFBdO1_PyFzYkYEqAw2vlUk101cMQNnmpIvsSpShvfu-xWItZt4RGsKbvryaFPcxJM4XHJM5AyWpmdVpJdvnSCpVksU=w433-h577-s-no?authuser=0",
   },
   {
+    brand: "Bruxo #2",
     name: "Bruxo #2",
-    style: "abocado, Ensamble",
+    style: "Abocado, Ensamble",
     agave: "Espadin, Barril",
     abv: 46,
     origin: "Agua del Espino, Oaxaca",
@@ -90,7 +98,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9qaUdcM28sauJwSCqWbhnt1r91kQMulGvdzi8w2Pb0Y1m3FCoiaq5idIzo1uNiSk9wddPDMOfWioE8y2fDCuMHW-yP6fsCqoDsZOyLyFn0i0Ln-wvfJOyk9OXx2fj2SfA23mM4dKziNdk8vfKz-D64=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Caballito Cerreo Chato",
+    brand: "Caballito",
+    name: "Cerreo Chato",
     style: "Joven",
     agave: "Chato",
     abv: 46,
@@ -101,7 +110,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc__C1pHqdzRnGQ_jqD9Or8xZYxRovgP4waD0MfDk1yFiyGTuXbscdOPAKd2MM2HNXmAOzmt7JVOpp3MM2CEmzOCmBtqJjj3c6uzM4uSB2qwN-YexolwZ7TLcFhf5Vy5AH2Bgw58f4tL5AJRYTReYWsE=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Chacolo 3 Anos Capon",
+    brand: "Chacolo",
+    name: "3 Anos Capon",
     style: "Joven",
     agave: "A. Angustifolia",
     abv: 48.3,
@@ -112,7 +122,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc98ueA5pWXQpI0O5-YdjPBvc7Fkrb69BajUQ_BJ7lMYxCvA_srSw3OELnopbaMDtFpQOaroq184J-ipmAg4f5Aw1mUuBIdRwPMPp1b9DlJJqZ1VieNOEPDWKW244pp3vbpEBMFnswKA7h9bNjCJ5LVb=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Cuentacuentos El Barro",
+    brand: "Cuentacuentos",
+    name: "El Barro",
     style: "Joven",
     agave: "Espadin",
     abv: 46,
@@ -124,7 +135,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9VDonsaDZOpFd3YKweFiZwm_m-8ciemp7F4f_U-Sc08QRJfHveb_NJPnIybFyBe85QyCMINP6izj9YEy_NUIFh4mrc7RS4JyPuNqmmz2truTTExwBlg7lnKZ4qJ75Y9U2zWfAhfJWK7KsraXI05p3I=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Arroqueño",
+    brand: "Del Maguey",
+    name: "Arroqueño",
     style: "Joven",
     agave: "Arroqueño",
     abv: 49,
@@ -135,7 +147,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9Gt0-s_s_4l-D2O_dJ2CidzsiiAowhCpoe2jCRYeP6ool9_wD9CzcknKIyWuQ5Zd7kxDUt5V8EmJS5X90vOW1sxw8fRozwLr12VNq9EcG5GO2eeEytT59VCcFwqssBuUPmrZYXAjJrAyEh-ApGGnTB=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Chichicapa",
+    brand: "Del Maguey",
+    name: "Chichicapa",
     style: "Joven",
     agave: "Espadin",
     abv: 46,
@@ -146,7 +159,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-T7Ic19cE480HziVBOa5nNHPUIAujlRRlAxHWO5ZsK1C-i2M8sRDstUaOUJ77f23P-pBWkoTWcaJCHjnD4ncvYEn7SnU-5y9JI8t7qSCJJIbgZKt-ftA2zg8T0VsBAOcUY5o6IRyoZ4MazlgzSDaQo=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Magury Crema de Mezcal",
+    brand: "Del Maguey",
+    name: "Crema de Mezcal",
     style: "Joven",
     agave: "Espadin",
     abv: 40,
@@ -157,7 +171,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-VQqKm8R_ZcA1-MSxTuKcX0n20uerZHwAW8q_Obe0GMWKwopYbNQHBcw9jTguj2S9NVloVLwUXdu2UQJXaGa021N_GRAWNYIK2P9--lnOjWBADGrc4NaA9qqx_P1F-w7L7Jisf5umG-D57M8pA3qSi=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Minero",
+    brand: "Del Maguey",
+    name: "Minero",
     style: "Joven",
     agave: "Espadin",
     abv: 46,
@@ -168,7 +183,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_UtFhj3wvNs8V9Ev4iBiIRNO09gtVWr8jma5bXYzN-nu70j0aLHSJ3SxaZ1jye74GEOibhhMDq4Ac3Blc3OkQPhP-SgWHa4H9lBhCTLVevGJNlQ2jmsHY9d4gHB56YP-aPDWU0MkSHmq3iBblDzJT7=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Pechuga",
+    brand: "Del Maguey",
+    name: "Pechuga",
     style: "Pechuga",
     agave: "Espadin",
     abv: 46,
@@ -179,7 +195,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-FX0ZgPeVdiyKBTkeYR7_qExI00ga5VhTWVwdlW7_-_tqXj97-0OkmkSPW-mXEI7n0UPekfvgCqSZTpCjKVNkRi64kXIp3a2wiEPeOT5cmbabpmCY7LPBKKSWHpkbnxmPlVzPgKHXlWJ8C06hThmgB=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey San Pablo Ameyaltepec",
+    brand: "Del Maguey",
+    name: "San Pablo Ameyaltepec",
     style: "Joven",
     agave: "Pizorra, Tobala",
     abv: 47,
@@ -190,7 +207,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_LhMNVO2L4vAs2L56Jj2ihsjXPi9-FKm9CHeAVYKolmBOS4QrnIY9ES61sir6o0pSZFgmzih3lH5YhCwkVfT_Je4M3tBd5dN5yTKT86IyPtesnV5OksZvNIFcpjz3qRgK6Odq8n5q5eODnv-vy_4xM=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Santo Domingo Albarradas",
+    brand: "Del Maguey",
+    name: "Santo Domingo Albarradas",
     style: "Joven",
     agave: "Espadin",
     abv: 48,
@@ -201,7 +219,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_lAxT6z-c0qRiy-aeCZ0PAWEiupkWVvA77fg6L-2k2yIANwlutA4hf5rMnEMw4ogEbSa7Rt8sE5MXQuuCYeJgT3nSFZZGGAcEwH2JntM03n0743dkm21TSZmdignKDhDK0GO3zZAwDTemKAfXgtfR9=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Tepextate",
+    brand: "Del Maguey",
+    name: "Tepextate",
     style: "Joven",
     agave: "Tepextate",
     abv: 45,
@@ -212,7 +231,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc93cPpiFAgHcXvYKW2UARIqgt7bMc95emOMDaGDCRFkL4qzCgsg1EbH3yQOig2RoWwZakMRkYDesRE-63eWLfOIIavMjz4JmceS_VwZEb0RpX_9cHaQag3TzyazgR0bOfsGsEVfoNe8MKQJ10mdXR7k=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Tobala",
+    brand: "Del Maguey",
+    name: "Tobala",
     style: "Joven",
     agave: "Tobala",
     abv: 46,
@@ -223,7 +243,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_O31VqtXN0CFuU-3bB_k9IlyND01VIw_9DhZDjzoTPwqGGVtcs-t7_OxtoaFqzRK1I_d0RjdLX_kh24qEwneNsn3bcfooLmYC9lOkFQBBUSVTBpK47t13I3QKEZWD0vO3hmont5mx2i80qxD9BUPGB=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Tobaziche",
+    brand: "Del Maguey",
+    name: "Tobaziche",
     style: "Joven",
     agave: "Tobasiche",
     abv: 47,
@@ -234,7 +255,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-m6J-9grCJ9ZuHQ2pk65li81oJmICvuTEb-mbvdsfnm7TVqSPIUkIlZiQtNqxcvkH-bwiyV4FHhB9QwxNRGVDj54LwQFdUsfMVfKdBs5PjydJmdFJM212seTTHFoX42AY7C0-c437kov5Rnn370aXf=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Vida",
+    brand: "Del Maguey",
+    name: "Vida",
     style: "Joven",
     agave: "Espadin",
     abv: 42,
@@ -246,7 +268,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-F3nLfsyzmXSQSlQHKfjBi31O-k_tGoMLxryrtGPRpcm7X8pfyHqqL7FNAtDx7ocA9AsToRXgSab5hqbrT4faXeaARdDlz-ogLyUsHiDBpqJFHsrD-dhRFkepBouaMdnNaN1I5lXhRhfj5L7kExv6U=w500-h500-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Vida de Muertos",
+    brand: "Del Maguey",
+    name: "Vida de Muertos",
     style: "Joven",
     agave: "Espadin",
     abv: 45,
@@ -258,7 +281,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_OBpEQKnVUoEa1hBGi2P0gtwdzEtBSSbO-LRkO4jR9erKPD7akuSv_SGdbJ68OHBCLqbX1F9ckMcmfB84fTvT4zDQNI41G761y6r9WkswXsbvh_lNdIWE8HVPNWz0YSZ-lCA251uVD99sw_naA90GV=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Del Maguey Vida Single Village Puebla",
+    brand: "Del Maguey",
+    name: "Vida Single Village Puebla",
     style: "Joven",
     agave: "Espadin",
     abv: 40,
@@ -270,7 +294,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8gpkA5ODARpW9S3fMV90i5mB4ujmyec79_B-nsafaitEZ4GkhZraynPvwUHx7GbusWTlLZ7k_r-w-W9EWTmhD-404GjcR1X8v0bBAvUv3XHP3xW1X7XQSQ50dzHM4Z9ufJH2WYGa9Vg0w6TKV4QRS7=w204-h884-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Barril",
+    brand: "El Jolgorio",
+    name: "Barril",
     style: "Joven",
     agave: "Barril",
     abv: 47,
@@ -281,7 +306,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9dzBVLWjcnmWCxNG1BnygmxMt-wZxdKgEgsnvAW9lZjPstvNnk9ydM3L-yKdBt9Dogaw2OwVLZgHEtbuGfA1CUH-wj2v3I9vdWRIl8SGnsnPbW25duRJ-NEmWklia2c61ixt1pRI3ghHReWVYhLI7I=w433-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Cuixe",
+    brand: "El Jolgorio",
+    name: "Cuixe",
     style: "Joven",
     agave: "Cuishe",
     abv: 47,
@@ -292,7 +318,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9NTuagxHpGHGSWav2RlHmFdIhS2l9HQfdSGAjnMOoOvVfuxg2YEDT-YSuAwzwsondvMCN2sbuWilByVN_wucln0Y5o2w5UsZ1g6yO7QnbsE8trrDCwDZtxoo-_qVxZsTn__9JiWjbvt8NNGHtOvECM=w432-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Espadin",
+    brand: "El Jolgorio",
+    name: "Espadin",
     style: "Aged in Glass",
     agave: "Espadin",
     abv: 47,
@@ -305,7 +332,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8JU18tWgc_G4FT1G80KuHoITZvyB1CbAjtb-FhJ0eDe1WiE6jCJSzF4Zju5h5yPs-HOIKnxjGCj3NoWfVBrujTyy_3tromUYwPW2VgEf3k5wJcK4sHyTYXC8T0J6FJI2i6AREmu9kbPlsWhH3IPMYN=w433-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Madrecuize",
+    brand: "El Jolgorio",
+    name: "Madrecuize",
     style: "Joven",
     agave: "Madrecuixe",
     abv: 46,
@@ -318,7 +346,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8aE_UE7P0z0ht4EQHPcb0nVhv69IxHoeAAIYFu8ZFHzlRf4vS5FR401Lus8uL9sX1cVj1h5X4tlanEojNc95yQg1WshwCpm7gLMGJlVrvujgSU947OERntpDu36t0vrg9ONuvIkbBoxU_bSA9uwkmb=w433-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Pechuga",
+    brand: "El Jolgorio",
+    name: "Pechuga",
     style: "Pechuga",
     agave: "Espadin",
     abv: 46,
@@ -329,7 +358,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9wkPiGxGeCEMwNN_EyRXDjAc42H8tFnW9fvTEH5f2vqLOB5SC6pYkxQjjvO5RdMLDWySnmE8lw97pOH0mNC4-D1T0FeXP6NS1ZzntDwkmrKJ756vS578qw36pVN6HQG8tGWxtgPh9_5VnJDhKqDuwT=w433-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Tepeztate",
+    brand: "El Jolgorio",
+    name: "Tepeztate",
     style: "Joven",
     agave: "Tepeztate",
     abv: 46,
@@ -342,7 +372,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8EttKzitwjVJS5XWsCQ_fxBvGzBIW0kriq2Ee07K-hxv6_wtAt60VTsRmQj4AaRPt6O5dfZK3Xq7DJiwYSpxjt7ycIdj1zf6PuZxJYr5j_dyFmDuiJvWkPeiUUGr89lLxno1TmrpO7qaqsirJZ2eSB=w433-h577-s-no?authuser=0",
   },
   {
-    name: "El Jolgorio Tobala",
+    brand: "El Jolgorio",
+    name: "Tobala",
     style: "Joven",
     agave: "Tobala",
     abv: 47,
@@ -353,7 +384,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9_tRkzpMTntMDDBEpRzPXNqJmHCHpItG2hgHampAVkzcZYYUPlmc2SZETbjt3t_1XV5oIZXSUK6XYmi0b4toR5mh1HiyikWIW8v7AkHQdJMJtA2a-cT1ekCSaxWhWFhDUPzIyllpP2MQOucFb0G0Pq=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Fidencio Joven Clasico",
+    brand: "Fidencio",
+    name: "Joven Clasico",
     style: "Joven",
     agave: "Espadin",
     abv: 45,
@@ -364,7 +396,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_5sjQIWoD9VtiQnzfrDildzxcTY5462swZA9v4g0e0rb43MzpG5ilp5wTz-gpRdgCWfEhEffYbHrgeIPKHwhvljXMCRQu8OsCtDDTnRFJRX0ZCFH53ZW7Yc11GgodnXHv1J5di4vNUs9uC7Qglio_v=w500-h500-s-no?authuser=0",
   },
   {
-    name: "Gracias a Dios Espadin Reposado",
+    brand: "Gracias a Dios",
+    name: "Espadin Reposado",
     style: "Reposado",
     agave: "Espadin",
     abv: 45,
@@ -375,7 +408,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_d7nOglnzWuhrloVZMZHkVFTcoaFRDpls0-3D6G6rjRd-AJzE3oTa8x6U_JTU5bbmz00rigJ_99vgU2wYAwa9-IqkASw8XKu0mddFAtVmcJNOIQfPf9Hn5WDLyc9O8BYePVgEycusVAmrHv9l6tfFP=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Ilegal Joven",
+    brand: "Ilegal",
+    name: "Joven",
     style: "Joven",
     agave: "Espadin",
     abv: 40,
@@ -386,7 +420,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_Z_Dv5j8BLyHxbEdsVpKP8oWu9kU9Wyy3yMdLVg9LB8iB2gODMpyoj-uiN5jWqJYvstOepnZ3AWnpD6BwVgF7mEuggQVdB17GDIdXBxXXb2D3g1oA4DYqinw8cLZTVwAdFd6SeHiU5TJac6PTrne7N=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Ilegal Reposado",
+    brand: "Ilegal",
+    name: "Reposado",
     style: "Reposado",
     agave: "Espadin",
     abv: 40,
@@ -397,7 +432,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_2abapHvWOeBjp8prMuE96a4LI0sD1BiS7AQaRotbwnzwugo5igPVz9yH1J4Jy2ihXn7OYqTg67mG4dojKelYNKJYfoXpcUV7GHpfDnG3NYxJoUqB9GfcyPWyXt2AbTVLn50XvGEkxIB-L9Qq2HKM8=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Ilegal Anejo",
+    brand: "Ilegal",
+    name: "Anejo",
     style: "Anejo",
     agave: "Espadin",
     abv: 40,
@@ -408,7 +444,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8BifMEAUYoOf7p1fQ_pQhmcLH-t7KkTyOl1JjnvQRDMsZzkkm7PMfy__Nw6qNjbwHrHCmqc-u7G-WbzujC9xY9TywekcsUagVyh-65ZwJFXMvAEbg8mZqAK1cDeTDGih4868CCX8_rZ1M00Jm2rABK=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Ilegal 7 Year Anejo",
+    brand: "Ilegal",
+    name: "7 Year Anejo",
     style: "Extra Anejo",
     agave: "Espadin",
     abv: 41.32,
@@ -419,7 +456,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_6GpwbtHE5IYD1274kfdkmC44jcLjynkiDsklO72R6JKN6zhX9n4Kvov23V_qflakOSXVZZ8v2bE9BsCk-36DAv4H5oCprFs2fDwzMkmPy9pNhmyULD7dmEeuwGPeln9bq_N3TjkWH9ygSoRtn2Y-C=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Koch el Mezcal Joven",
+    brand: "Koch",
+    name: "Mezcal Joven",
     style: "Joven",
     agave: "Espadin",
     abv: 47,
@@ -430,6 +468,7 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9tAaqL9tjp-_hrRv2qdfCVv_CYDM0iVePPOXi3cshT0UTj513XGWUj-YHWf1UDTbzbG9gN2GW4cJLOgoAyYs0XV2wAk7D2KWerK6-aHkOd53pRQtjtKTh-fAcT_GxXkVqX1n_Xjp1mdQTAR0SlrAe7=w433-h577-s-no?authuser=0",
   },
   {
+    brand: "La Higuera",
     name: "La Higuera",
     style: "Joven",
     agave: "Dasylirion, Wheeleri",
@@ -441,7 +480,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-Isk-Ek_MEv8-LaFeqyDJX0buPSp_XGh8INL2RvxaAasdArfOiw5FWtjNZY8RCwbDWcEtV2mUI2hH_yJmlzrg5U1qZ-f0_l7rm-wcunAv6KNQ82rE_1brkyQFih7SZ8RQEtQgBDlKJCDi7PqG4U0LX=w500-h500-s-no?authuser=0",
   },
   {
-    name: "La Luna Bruto",
+    brand: "La Luna",
+    name: "Bruto",
     style: "Joven",
     agave: "Bruto",
     abv: 50.62,
@@ -452,7 +492,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9GmAA9o2Kss8MFxWG_I2T17TIcKSdy0de9MFZopdXH3vDCcCvaK_HK7QIvzhm50ezIJGg9LZzW9hQAxuIjm46liI1DGx4Ss6VCrd2NxCRFoR0WdP3OdR6shQa4OLWxa1SylkyJKhSMKKp8waz_BRvJ=w225-h540-s-no?authuser=0",
   },
   {
-    name: "La Luna Cupreata",
+    brand: "La Luna",
+    name: "Cupreata",
     style: "Joven",
     agave: "Cupreata",
     abv: 49,
@@ -463,7 +504,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc887g3OowYf5U21luCJ0lVre2cRCFDIy73akboYrw_z6sjf1KTNnKs4nPwrzSp4tAlfRO3CYo2-Adqj6QYJVrK6IrDZExMa52liQfkgBdyy-jDZAOqCuxwPuAaQVZdp79igAOU7dnjWImKLGHZVlDvb=w433-h577-s-no?authuser=0",
   },
   {
-    name: "La Luna Espadincillo",
+    brand: "La Luna",
+    name: "Espadincillo",
     style: "Joven",
     agave: "Espadincillo",
     abv: 48,
@@ -475,7 +517,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-F8XVBRfV10hSD-PdwNY6jF43pRK-vN6GmAOxK3s741u8pPD0-W84_KL3xOGDru14kNf8aS7YiWVXdImv1rbsdwr_3ORYTmb_sSx7QtuXn3YOZMCClmgGzJhCv9C_57uBNgJGCuPiJe_lJVO4IP3p_=w433-h577-s-no?authuser=0",
   },
   {
-    name: "La Luna Manso Sahuayo",
+    brand: "La Luna",
+    name: "Manso Sahuayo",
     style: "Joven",
     agave: "Unspecified Sahuayo",
     abv: 48,
@@ -486,7 +529,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_wC-G_S_pO7DpsSsaL84OZOmJdD3CA5Cz4bbLN7bNEr3cGlm9n8kBaexE6voEurTXJ32kLlModaUZXvmmfZs7Ev6bHjWUIzUCERXf8g-yElIntwf67fQlgV-6pGfnPn6Ur90c9t-swv2VJTEHHRqex=w433-h577-s-no?authuser=0",
   },
   {
-    name: "La Luna Reyes Chino",
+    brand: "La Luna",
+    name: "Reyes Chino",
     style: "Pechuga",
     agave: "Chino",
     abv: 48.51,
@@ -497,7 +541,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_9iRL0Doh4wRyCdQLe3xz-lM_Z2oFna_9qaj9icKpOUl9P9C_0utqnsSg-j3fa_uBHhm6kRq68Kt5GbvX_SDqy7ngvlslfcNrV9l-ePccmbU1Qb1jbBOeKUEtm4C7dxMK1VX-7dkIPwmFxauqaUqAP=w433-h577-s-no?authuser=0",
   },
   {
-    name: "La Venenosa Raicilla Sierra de Occidental",
+    brand: "La Venenosa",
+    name: "Raicilla Sierra de Occidental",
     style: "Joven",
     agave: "Maximilians",
     abv: 42,
@@ -509,7 +554,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_nEm9s40jK7XugcTu3X-NliIdWVix4BAHH9zkQPGrR4iTdNQhH1lNqfgRJdHgc6irLvtJMrLhRZJX9pEQxiY7e8ksNM3PeFO58D-x5MedLtO9Rnk2hLsND7w7osnxOWSmraFCV3x8PhROeD80j0uVf=w433-h577-s-no?authuser=0",
   },
   {
-    name: "La Venenosa Raicilla Tabernas",
+    brand: "La Venenosa",
+    name: "Raicilla Tabernas",
     style: "Joven",
     agave: "Chico Aguilar",
     abv: 46,
@@ -520,7 +566,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-kg_RyZ-3bF-cKRfBLKZd5yr32JAbfSBpBPsod8t2qBdvGWsewWWDsHlKatAOua6XQa423G6haK_wU7VBCQ-3VFwjYdG2X1VuDzDAiCbnGyldvv6ZvSP-XPm8kcT8GYfnnTHoybX9ft5iQMol6z7MJ=w500-h500-s-no?authuser=0",
   },
   {
-    name: "La Venenosa Sierra de Tigre",
+    brand: "La Venenosa",
+    name: "Sierra de Tigre",
     style: "Joven",
     agave: "Bruto",
     abv: 44.8,
@@ -531,7 +578,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-ypfu25dHjvI8kgroz5PdGs1_-lY4Se-xxOjP3Q2Z_sd6D0m4oyBDF5S1myHfVXSO8M6GBxG6CgxH5NpWKO6L2TEN0TL8u754ODIILzRx23VY4x6E1fiGZdKzWjQwLEfCBr-aSdbxA-_oj15gxdxbL=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcal Vago Espadin",
+    brand: "Mezcal Vago",
+    name: "Espadin",
     style: "Joven",
     agave: "Espadin",
     abv: 50,
@@ -542,7 +590,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_eMtpRRSml6HpVr5BKIdUmrF21ZWlTwC87jy0fzPuq4_dOgIN9SeXA1NVIxbgXk75Vf1Q3Jf6TB35ncumgWCUaeDughh0ZT5ino1diG9L1if7U0_uTZAYlwhos6at0vtJ8VOq9m11AD-X_otM5iGSn=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcal Vago Elote",
+    brand: "Mezcal Vago",
+    name: "Elote",
     style: "Joven",
     agave: "Angustifolia",
     abv: 50,
@@ -553,7 +602,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc86mghofLb1gjypWapOaIDReIoULM7tNo2oNtpwOL8g4EqexxlP3sV9qX5iIpLxX_pWB1Uzkh0lWDVBxX8bJDAdwxlJ5L9WVGok6Axsq96PE9GpHm-UgVAFy8FcS2Oyw9vikgGI3lEOV1eRBz5EhfFx=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcal Vago Ensamble",
+    brand: "Mezcal Vago",
+    name: "Ensamble",
     style: "Ensamble",
     agave: "Barril, Coyote, Espadin, Sierra Negra, Tepeztate, Tobala",
     abv: 50,
@@ -564,7 +614,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8vLw7CgfVWm7XSo9HqsWXLiGLTRB3XxpH8qYmQS8-h7Edok-a6U0k321TasHoB352BLe8oqMX69PuOXjeddqB2h9t3ZBVhy6npKqrYf0eoEm27a9YcWnGpu2J8QIWcx6w8PxVmCmgEGpgilKDHHfcL=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcal Vago Madrecuixe",
+    brand: "Mezcal Vago",
+    name: "Madrecuixe",
     style: "Joven",
     agave: "Madrecuishe",
     abv: 50,
@@ -573,7 +624,8 @@ const mezcalData = [
     pallet: "Minerals, orange, pepper",
   },
   {
-    name: "Mezcales de Leyenda Guerrero",
+    brand: "Mezcales de Leyenda",
+    name: "Guerrero",
     style: "Joven",
     agave: "Ancho",
     abv: 46,
@@ -584,7 +636,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-2lreJoRHZEBrwXRtfFeCSm5tJ00QNUkee1zgK_mR9Z-8P9MSsEBajKM8gm7oHeferFYaNh3C0krkxvlr96kiUPb0CsYgUXbSvi01yqb5iZYUDyk8hDQI2wJ8f6GZt2PYFrAMguMKm40iNLXtOA9mt=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcales de Leyenda Durango Cenizo",
+    brand: "Mezcales de Leyenda",
+    name: "Durango",
     style: "Joven",
     agave: "Cenizo",
     abv: 47,
@@ -596,7 +649,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9db-vGFGJcBumMYTWA8O_eHxrYVbwlC6cnlVxacjGq12D3fJ5GMBl000jo6w_sK_1py4r9XWfPYQZxGHUCcARRcRJkplKOk7XiWgGpJ-7y884PD2dOpsAoNsLIjDenEotxdCHsqAeLftgTmQXjfdmj=w455-h549-s-no?authuser=0",
   },
   {
-    name: "Mezcales de Leyenda Montana",
+    brand: "Mezcales de Leyenda",
+    name: "Montana",
     style: "Joven",
     agave: "Montana",
     abv: 45,
@@ -609,7 +663,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-nq_MKNpmu6727q4jcCSh32uSyA69QhlF4-9CrKEKoLQQr3M3B25wh2kutLCyay00DL3nC249Xz8gMPNm4LtDzfrVj0lwAI2VBXjZOGZvBuWTdQDSkOxtEoWDG2ujKw6aFP2AnaiKeeJfwB2nd4FQR=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcales de Leyenda Puebla",
+    brand: "Mezcales de Leyenda",
+    name: "Puebla",
     style: "Joven",
     agave: "Tobala",
     abv: 48,
@@ -621,7 +676,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9AL9fTriBOKrfMrJntOFkq7i9NborNyylLkPF5sk4huyaPRI7-z_zdENwTr2RP2QTzjzb7tBmFRdtcLcxunKQMGc8U8HE4_Ug-z1eU_3TlQFvkVU7lvAJMkswUwp1fWCDAG5Re1eMgVc3pqTP5wqPR=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcales de Leyenda Potosi",
+    brand: "Mezcales de Leyenda",
+    name: "Potosi",
     style: "Joven",
     agave: "Salmiana",
     abv: 42,
@@ -632,7 +688,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8cKCmZ4GyMQaBNHctdKjIuXctQ2AA3fnWLnsMcPTVavjunoTxuiCJZlEqUIjRI0lVFSNsIy_ALeYGwfpBFIyoFYCW6Z9EzgnMwu-kYCtbYruF8DB2yMgM5Gilhpyzq0obcJn1Rx2rvg4OFzgudgTq_=w500-h500-s-no?authuser=0",
   },
   {
-    name: "Mezcales de Leyenda Solar",
+    brand: "Mezcales de Leyenda",
+    name: "Solar",
     style: "Joven",
     agave: "Cenizo, Durangensis",
     abv: 45.9,
@@ -643,7 +700,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_n2sSIQtUVSx2awOsjKwbPT6NGXDhq3D78CpO5enfxVX4A7cIUdgnunXtSfWhUPK__wPBuKgDW7YeCEy8TfFHSFFMgGqs0uZw0mF-vFlAG_Yb2SfH_CokE2rngSmDb-Yj3fz4p9EbHMh4KXMNTc4z3=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Mezcalosfera Madrecuixe y Verde",
+    brand: "Mezcallosfera",
+    name: "Madrecuixe y Verde",
     style: "Joven, Ensamble",
     agave: "Madrecuixe, Verde",
     abv: 48.29,
@@ -654,7 +712,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_fag08Y7ASiMBMpHYldwgNYxnzg8k7ND5DAZpkYJ0ziVWbs_tlMpcE-q0cPYJTF6YaxWHilfoPe_XwPqBYqn5t_-yGYNUnyvr9fUeBsgR2NIqr6QISPk9LuuKWJT-SqCocsmnKaOpQ_VFmZOkQExsP=w408-h612-s-no?authuser=0",
   },
   {
-    name: "Mina Real Joven",
+    brand: "Mina Real",
+    name: "Joven",
     style: "Joven",
     agave: "Espadin",
     abv: 45,
@@ -665,7 +724,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_D_jdjkZcbtu2VHDf6O1C8BAfRfimME7arhkJcNnqbanLb8WFUfuhGm3jX7TFBauljwd6cJRNp0totGQYeAHKOs_mlEXUXeRywoCSRv7ByOikl-1zupJ0JLhZyE6ZeSvyL35lRqa1EnDLffwdXDP1K=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Montelobos Joven",
+    brand: "Montelobos",
+    name: "Joven",
     style: "Joven",
     agave: "Espadin",
     abv: 43,
@@ -676,7 +736,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc__Zrwm5BXWnjmt3q6Dj9kLyVD9gsVmPGll1YhpKYhvN3Wn4-Wjtl-7PnTo_8WMTliCPp8Eqy-ZBfciR7e2ZAGTUezvojQpRx234QTeHAQdHcN5lMgzVrPy1cywdr2bE5JTK_hNPktVhBgr3SoPbeAx=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Nuestra Soledad Ejutla",
+    brand: "Nuestra Soledad",
+    name: "Ejutla",
     style: "Joven",
     agave: "Espadin",
     abv: 47,
@@ -688,7 +749,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc-FgQUFeETkEkXHXqMDasyXK2OG0zYcJihUiJ7Cv_52WouhH1mlcGVBTsFrRo2W0SrH6URBTpM1wl3LsVFlrd9H_XH9JXNrAEBcsK71jJgnpTnmzLokjjZri-TC5M698oP6f4wZwmNZpXcP-jzHHMBk=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Nuestra Soledad San Baltazar",
+    brand: "Nuestra Soledad",
+    name: "San Baltazar",
     style: "Joven",
     agave: "Espadin",
     abv: 48,
@@ -700,7 +762,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8Et1UjhvB8q9JX3CC8dHDFZZnliwDts4FGSMeOvAtaOaIsbIn4JVU_Gue35DlLyHkG-FhuH93vWAFMW1i5AHWIefzAxXWT7cQWB59KdoC0KuMAM488TsVTGZ5WfoTWaQwQxRVgmiOIQLpU3EdhubJF=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Nuestra Soledad San Luis Del Rio",
+    brand: "Nuestra Soledad",
+    name: "San Luis Del Rio",
     style: "Joven",
     agave: "Espadin",
     abv: 48,
@@ -712,7 +775,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8l5uzMH0D6n7QVuLpaY1xtxbjmJ8nj1OSz9RQk4Y2YcabG9FMOc5aEuttelprshul9O6-AESgwSvreg0bsYmaggl4mk-8DmLsn0ZAkTzMqDa3qvfRmgx1ZD16rgAzZ2MlqUYEYFUUMApDhRtk3ZICN=w277-h899-s-no?authuser=0",
   },
   {
-    name: "Nuestra Soledad Zoquitlan",
+    brand: "Nuestra Soledad",
+    name: "Zoquitlan",
     style: "Joven",
     agave: "Espadin",
     abv: 46,
@@ -724,7 +788,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9vXYeMlk0lKPc3IJ2OFpIRJY_vdI8zB4TdLEvOORSNa5_HxhPUiAXa8kWKJctm3HPB5j_2rB9kqKD1VVk2eyodxWBXk-WLP17WR0MQB_Ul0A8XF2ORfiYc0-MNRX40dVEzd8UY5qSHZD47LDuzbi3o=w277-h899-s-no?authuser=0",
   },
   {
-    name: "Ojo de Tigre",
+    brand: "Ojo de Tigre",
+    name: "Joven",
     style: "Joven",
     agave: "Espadin, Tobala",
     abv: 40,
@@ -735,7 +800,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_85Sxm7LAj3HwEFeOwCwcE7Yc2EkOrCGKngQF6S_GEZcqtr3op7Kz4UzY9AI6ta1JSUYWdzCiITPNE6DgSFU19-ivFqN3GKCyYgtykozKca8CaoilI1BINLMUzPdA6ORAZqoRObwkz7_CMDD-5JaL_=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Pierde Almas La Puritita",
+    brand: "Pierde Almas",
+    name: "La Puritita",
     style: "Joven",
     agave: "Espadin",
     abv: 40,
@@ -746,7 +812,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_bpfH9U14mEAWHlBFp53Dc9yGsEMtR-J9BK_Cm-VT3PaplqJ3nD0ZGDNPTkM7jmpihgSzrkgsOgJNhp35kWJD43ZhhAf-YSevScLzQ5JImCKI5HXTwrGw4wjS4K6BR1s0xtQeGNWrLYaKMIogl85Sf=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Peloton Joven",
+    brand: "Peloton",
+    name: "Joven",
     style: "Joven",
     agave: "Espadin",
     abv: 41,
@@ -757,7 +824,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_afbPxFoABb-ORyUqQVQQxOBKjdpzMnZQy70Sv6_quY5q61JlvAIrsYAd94zOADQLBKmSZbp0zQa4chYmjqMyf36FzGnG-72i1hlLsRtZXJlCkELOVj7Glr-OcW5tuDaO9d1dxaFHRL3yDBUz1K_CU=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Por Siempre",
+    brand: "Por Siempre",
+    name: "Joven",
     style: "Joven",
     agave: "Sotol",
     abv: 45,
@@ -768,7 +836,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8OJaHl-PyUWu6_3QSnTKGlO3lpBX30KPibhON6mjPlKPN8g48TpQaWm7vTPbeP0z6QXkGIRoQPQdk4vY1llEHPMkO-fgJ9Qv9Ndz5dR1xcMhJ9GGHq7h6pxs-0RGVQTfrCvn-7Vj58zq8O9DHipZq3=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Real Minero Barril",
+    brand: "Real Minero",
+    name: "Barril",
     style: "Joven",
     agave: "Barril",
     abv: 50,
@@ -779,7 +848,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8_4WOikaOal5C45yT4Hmaq1d83RykqKe3iQNs1TsoFZ87mTpwOBGuyfEnX3v88EL8YE9U5Y0KjeJircms8fEqYEJj6spq_YqPJ1OSOgUUbJJ6Q_NgPxA7qfUFTX5o9rcQgfVkCkY2n8kdj_CwyGqOy=w433-h576-s-no?authuser=0",
   },
   {
-    name: "Rey Campero Espadin",
+    brand: "Rey Campero",
+    name: "Espadin",
     style: "Joven",
     agave: "Espadin",
     abv: 48,
@@ -790,7 +860,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc9WfWI0mPMg3ypVy8_8mpa7oZurtTMuXwPNc_WDI-JgH5ymxd6d8gZkZkO3UO0nUI5z7I8eUmVdAAp5aLgufK6IZGajMDe5zq4Gvxvn5LHYrSJyFTZmkrQSFNKo50ySrsb9W0o5ucRM0cZNTIrvInCz=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Rey Campero Jabali",
+    brand: "Rey Campero",
+    name: "Jabali",
     style: "Joven",
     agave: "Jabali",
     abv: 48,
@@ -803,7 +874,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc8wuAlx102BfTkUkzghOLT5tup-Z5DDfLzDKyLK18vzvP9wg2zpxwKQc0euJ2VF3mmk6hZl-52hyZMHSDLFBsLR-LQTfvrzvcMcz0qfdEDhTn5IIRYpaDFihJ9O-I2Mr0YB0Bl6OSMBTkD1SRwhDqTg=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Rey Campero Tepextate",
+    brand: "Rey Campero",
+    name: "Tepextate",
     style: "Joven",
     agave: "Tepeztate",
     abv: 48,
@@ -815,7 +887,8 @@ const mezcalData = [
       "https://lh3.googleusercontent.com/pw/AIL4fc_7IEZ4poSD8CglGV3YMqVrscEQ2xYepgHK8ZDAwr_tL9PvOmjlbL-3hgtjkOwiDSreCsm6BPfCPTvMKQx3H9wH9l53zAEXsfsrUbUsORwe8Myii3cqScHtYWEY9MJEZA19hC7Md7G-5y6THYnZTBes=w433-h577-s-no?authuser=0",
   },
   {
-    name: "Xicaru Pechuga Mole",
+    brand: "Xicaru",
+    name: "Pechuga Mole",
     style: "Pechuga",
     agave: "Espadin",
     abv: 46,
