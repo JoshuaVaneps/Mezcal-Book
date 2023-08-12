@@ -19,7 +19,9 @@
   STILL NEEDS TO BE DONE 
 
   ## Usage<a name="usage"></a> 
-  To utilize this application, kindly access the designated URL and proceed with the account creation process, in the event your employer has not already provided one. Once your account is established, proceed to log in to gain access. Subsequently, you may commence your exploration of the comprehensive spirit list, which shall serve as an invaluable resource for enhancing your understanding of the exceptional spirits housed within our establishment. 
+  To utilize this application, kindly access the designated URL and proceed with the account creation process, in the event your employer has not already provided one. Once your account is established, proceed to log in to gain access. Subsequently, you may commence your exploration of the comprehensive spirit list, which shall serve as an invaluable resource for enhancing your understanding of the exceptional spirits housed within our establishment. <br> Use this QR code to view the project as well!  
+  ![qr-code](https://github.com/JoshuaVaneps/Mezcal-Book/assets/111986248/0682f88a-bb82-455c-8712-8b15ebf9fd15)
+
 
   ## Tests<a name="tests"></a>
   No testing implemented. 
