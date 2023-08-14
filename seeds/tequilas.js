@@ -8,7 +8,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 38,
     aroma: "Baked agave, lemongrass, fresh herbs",
-    palate: "Lemon, wine, herbaceous, vanilla",
+    pallet: "Lemon, wine, herbaceous, vanilla",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9dNEjWkSuwKIcdlf3D7Uyegnf9rr7ovwWw5-O1ieLtOHL_mprAXMrKgSJVIjpxc9hKlPGGO6cMG1ooImhscu9xrvdYpkaQgD4TFqdwQ3hvNvsfPaW7IMXXq9yhai-f100zHz5Sj2xHcJmFjnpltlV5=w422-h591-s-no?authuser=0",
@@ -20,7 +20,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Herbal, citrus, vegetal, spice",
-    palate: "Spice, pepper, minerals, vegetables",
+    pallet: "Spice, pepper, minerals, vegetables",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_wRif20cjsNM796-vR6NUUC28XiPSzJe0L4ZGWqA6dGdW-3wXRaECtrV1uh4YCuYtcaABk1h1aa2vtaRKRH08GpVXdfEvR3zfyguMUH5neO6FCwhwBjZR9agNacuRP5ww-NEjEUsYWXtQF4tBaITHT=w300-h600-s-no?authuser=0",
@@ -32,7 +32,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Vanilla, wood",
-    palate: "Citrus, oak, cinnamon, black pepper",
+    pallet: "Citrus, oak, cinnamon, black pepper",
     appearance: "Gold",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9-1gC7Ri2EkhsVYZjE-U-gg8_I9mgbMhbUzHjFYjCBp0TvhpVsZJCwr8NxnQ-ViYa28MVqwLOvnRsdfb2uGki-zObLP1K-N0TRD_XDsjP66E5aHSQ8zBdhKorWO4-fTFdqyEP2kYrDmV_GB2mKS7WO=w422-h591-s-no?authuser=0",
@@ -44,7 +44,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 38,
     aroma: "Cooked and green agave, mint, basil, green apple",
-    palate:
+    pallet:
       "Cooked agave, vanilla, tropical fruit, cracked pepper, vegetal notes",
     appearance: "Clear",
     image:
@@ -57,7 +57,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Roasted agave, vanilla, oak",
-    palate: "Floral, peach, pear",
+    pallet: "Floral, peach, pear",
     appearance: "Gold",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-laUcN4HOjnU-eACsIs5rCdeE-RTSIrtGWVrndw67eUy_xBhONQUQZbWNlNjkW2Ybc4uJm5GhgxjMaVX7a9EsQSsuNu83mwBZtaNDWwp8oqBzNWVnh_hZ1evbfVhbzb7R0B3gJn7owJkOI71uu0LhK=w422-h591-s-no?authuser=0",
@@ -69,7 +69,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 46,
     aroma: "Cooked agave, freshly cut herbs, salinity",
-    palate: "Fruity agave, pepper, dill, pickle brine",
+    pallet: "Fruity agave, pepper, dill, pickle brine",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9ODWgsJ8doSwWJDrqMYGpTsIK_y_eBAnNZtGA25OFC69I_-vcedh7P2f6E5egOBC7YO_uQCRi66iHjNwg7QeEb4RnrkAzXTzFKRDE2VgvgzqwZJuDEY53dObgnUD_DcDqlpw9_Qb9XEOolHys14aEu=w367-h679-s-no?authuser=0",
@@ -81,7 +81,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Fresh and herbaceous with notes of green apple and grapefruit",
-    palate:
+    pallet:
       "Balanced with semi-sweet notes of agave warmed by hints of pepper and cloves",
     appearance: "Clear",
     image:
@@ -94,7 +94,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Hints of citrus and sweet agave",
-    palate: "Fruit forward with notes of vanilla and grapefruit",
+    pallet: "Fruit forward with notes of vanilla and grapefruit",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_dSR-onlnTLbjDj0UDjqGwD0Agj3wVu7cl4r2KDWHj7hbskJtSOSRATqDZP4_WY-TdAFRn2Q6gW7I0v0yYr-4fnRD0WZ0Te5KaKkhxxqkBAwS2Edk-RglYKbMRp0k9SRLe0Jk3MBVf7-7g2NimVN2P=w500-h500-s-no?authuser=0",
@@ -106,7 +106,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Caramel, hints of cocoa",
-    palate: "Dried fruits, spicy oak, sweet agave",
+    pallet: "Dried fruits, spicy oak, sweet agave",
     appearance: "Golden honey",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9b_wDVd8ZPCdi0b44MKgGP8Hyl5k-F0wRR8rQm4LelCFWWbLJMm63ypTnuuPKeGeDCas-F0dQFP9umJeq1wpAZMMz6kz9JrZVt2vDN-7a0kVHLniKpskQBPE2PhG4XU4iiLHlJFD7azUtackzMovaa=w422-h591-s-no?authuser=0",
@@ -119,7 +119,7 @@ const tequilaData = [
     abv: 48,
     aroma:
       "Cooked agave, pepper, fresh herbs at first, then cardamom, walnut, coffee, honey and butter",
-    palate: "Mint, fresh herbs, honey, bitter and sweet fruit",
+    pallet: "Mint, fresh herbs, honey, bitter and sweet fruit",
     appearance: "Clear",
     how_to_enjoy: "Cocktails",
     image:
@@ -132,7 +132,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 380,
     aroma: "Cooked agave, honey, vanilla",
-    palate: "Cooked agave, American oak with silky aftertaste",
+    pallet: "Cooked agave, American oak with silky aftertaste",
     appearance: "Straw yellow, clean and bright",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8d5XN-XwTjxkCrl09AofWjbq5GKCk0_JSoRhcoI4SP-jzg7agpiOVoJ_p4iMgFHcqMBZpnhf_QAPiaHNFXBXz4n9d8ZKh0zV5ipZrQ9PXvKB2qBcXqwyA8Tsd8glvone8aE8BuoVZM1YFNqAoS482J=w367-h679-s-no?authuser=0",
@@ -144,7 +144,7 @@ const tequilaData = [
     style: "Silver",
     abv: 50,
     aroma: "Floral, sweet agave, candy corn",
-    palate:
+    pallet:
       "Clean and earthy, sweet agave, black pepper and anise. Finishes with long sweet floral and black peppercorn",
     appearance: "Clear",
     image:
@@ -157,7 +157,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 54,
     aroma: "Cooked agave, lime, minerals",
-    palate: "Lime, black pepper, brine, anise",
+    pallet: "Lime, black pepper, brine, anise",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_GWM4E5Ac9YbQJl3I2ILKo-7Us6_DdPk-kYOSCSBOI1_9x24ee0D4HyJ4_cfoFFrtP3Q7-XAHrRDvGsgC36FQ6jllIRciTKePGN7vgFKbInUQ7X55e_OS9GKUN1Aeb73ehJ94QVFCsafpQfwmsAf2t=w422-h591-s-no?authuser=0",
@@ -170,7 +170,7 @@ const tequilaData = [
     abv: 40,
     aroma:
       "Heavy sweet agave, vanilla, coconut; slight hints of nutmeg and chocolate",
-    palate: "Warm spices, vanilla, sweet undertones of coconut",
+    pallet: "Warm spices, vanilla, sweet undertones of coconut",
     appearance: "Amber",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8qTdM1sGMhmSrrkC2-M6jlLealUIMvqoBj9QjMw3iNk223m4qP9lX0-GM88nJVr6_EsOdnTDn4T95OiiTELl0RYYwP_MU38-ODl3P4B98nrj9J6zbPcqpSJ9nZEKl-cYVlhWFLcEvb7Heg6PFFmIYx=w355-h704-s-no?authuser=0",
@@ -182,7 +182,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Black pepper, mint, vegetal, citrus, green pepper",
-    palate: "Mint, minerals, herbal, peppery kick",
+    pallet: "Mint, minerals, herbal, peppery kick",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-EWWrCLCPQttzZ53OxCNqatFx-PyG4fQN7WiAo6u8SXJGW7I7JDSOkwM2VJ6WxkXvowVqnAFuy3Cr5kLZILz3hjJgJlOUyqjlidqtEYcAfj7Gps3YPqMvq33yC4vGnqXf4SXRfHZAzTzScmZ-03gIw=w500-h500-s-no?authuser=0",
@@ -194,7 +194,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Vanilla, caramel, oak, butterscotch",
-    palate: "Vanilla, oak, butter, honey",
+    pallet: "Vanilla, oak, butter, honey",
     appearance: "Gold with bright yellow highlights",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-bX62qe-qNizew8sf7i3D9GrDJSYqTqFqGcl1t2YyjLh4F5NiYyoq1BSS2vDcQBsoibGd7o4uSEQNMjfj27nXoajneIG82hYedAKriCUsjg8J0J3QSGynyBhv6sRjrwB__KqnwxwJKWHYSP7-_MM-f=w367-h679-s-no?authuser=0",
@@ -206,7 +206,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Cinnamon, clove, earth, pineapple, grapefruit",
-    palate: "Smoke, earth, white pepper, baking spice",
+    pallet: "Smoke, earth, white pepper, baking spice",
     appearance: "Light golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-GJG1BaSkOHi3axz6uS4p0utRvcXZrMTPC2v0hxnPCoOd7O0D0PLWfDLuzCRGjvGrFqkCSWYt4nvhce4ZLKiiPMgYEU-mXvS8fSQhYKPNA94GoHgHhspdaN2eDuwoAwDAhsCYJEp2PgoB6zN45AN5X=w447-h559-s-no?authuser=0",
@@ -218,7 +218,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Black pepper, mint, vegetal, citrus, green pepper",
-    palate: "Mint, minerals, herbal, peppery kick",
+    pallet: "Mint, minerals, herbal, peppery kick",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9ZzTiNtphGM2l-GKouFA7di5IW4j6MDXDiLBSfEDZMMzFA-AIa4rOesFnxdpuFwvEp6V7AwQwr0iLzgn9JEoDVoA1g5G2X6nyj_sUovxp8FIbDaJqZdIDgaojckfpTL599ur77Zod6cQRkY7sOTB7z=w422-h591-s-no?authuser=0",
@@ -230,7 +230,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Oak, vanilla, caramel, pepper",
-    palate: "Cooked Agave, vanilla, oak",
+    pallet: "Cooked Agave, vanilla, oak",
     appearance: "Maple",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_0g_LA0-ctBi7__D4GhG34l0tK26QD0irgrrMFF_17TWIzF8DouS6AT70r35dCZ5AX-d6QppeO2ARqzwO2lseyGaJLTJHO-jo5Dyy8hgTxv5Y3dzemCAqOMcYIhiwfr6DMaldrPEisT3fkXNYYHlZt=w422-h591-s-no?authuser=0",
@@ -242,7 +242,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Butterscotch, caramel, oak, citrus",
-    palate: "Spices, oak, butterscotch",
+    pallet: "Spices, oak, butterscotch",
     appearance: "Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8F1LHYTv-C1rUGXAQEtmpRk7gKtk77SwW4fCYhKstSA1VkUg-NVoLFuzCNTfkzmqq7RlOneZ5spc_zN25f1qPZpqYpLGroq9iiDUyEViwC3esi0rdctDuTzsrlk5OrTsZOMQ2DkyOwFRmdN3ia3Qhn=w422-h591-s-no?authuser=0",
@@ -255,7 +255,7 @@ const tequilaData = [
     abv: 40,
     aroma:
       "White flower bouquet, cooked agave, tropical fruits, pink peppercorn",
-    palate:
+    pallet:
       "Cherry blossom, honey, wet earth, cooked agave, rose, mandarin orange, toasted oak",
     appearance: "Pink hue",
     image:
@@ -268,7 +268,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Lemon, lime, and grapefruit",
-    palate: "Sweet agave, citrus, touch of black pepper",
+    pallet: "Sweet agave, citrus, touch of black pepper",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-_ZtSINw-15cizmVMy_ljyPQTRFtaQoUcFUzDtFt37e4g-Z0eNgNLYt2AjxU3Ukv0UHQITMJxh075DO8SoxiWUxcqBFpKJYw7oY7EG8PleZbeP_wenSy8c9f2hmPUje0rNK7DSbsYevViPsbdo9I8U=w500-h500-s-no?authuser=0",
@@ -280,7 +280,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Cooked agave, vanilla, caramel, oak",
-    palate: "Cooked agave, pepper, vanilla, caramel",
+    pallet: "Cooked agave, pepper, vanilla, caramel",
     appearance: "Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_UuCNEEsaZDeOom0tOwQRqZrh3yG-adMhwzMTAHzlecCO4Ti1t8y-nyiGcDyFgH7m8o1Lhckaf_evHkEoXIOsHfxnwlTOBg6wupTimg_DSdB95_ydYk0nw5K5mOuh1eByHDPpm50PV-IRT7A2lTw8R=w422-h591-s-no?authuser=0",
@@ -292,7 +292,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Vanilla, caramel, oak",
-    palate: "Vanilla, butterscotch, butter",
+    pallet: "Vanilla, butterscotch, butter",
     appearance: "Light amber",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_lMKQuKe_Ze18-HF97ynIi0C98jIbypIh2FAeeRjzldDPB4eCduHHNDmd8YUVT40eJVxrduh2OHDWJ47cHvf-wwquHYTn6qCXjgVDEASdwir0ZOpMviwQQKFaaAWgUf5cBNGyCrRqbDrnDBFdo4z8Q=w422-h591-s-no?authuser=0",
@@ -304,7 +304,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Sweet, fruit, brown sugar, wet oak",
-    palate: "Vanilla, agave, clove",
+    pallet: "Vanilla, agave, clove",
     appearance: "Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9-7D_sUwhIA7iOHtdt9Ggjmxo8Kuw9dEoo9rMN6J2_4r0wxgelg8sOrFpAaOmEmWdN-34fLOc3SpbvVZ3rUY0JFtR8LdCAyrCNJCyjImqbb5AQZQpI8F8sBMiIQ2bFlpZcAXHH5c_m4z6AOfrZOUHB=w500-h500-s-no?authuser=0",
@@ -316,7 +316,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Crisp agave, citrus and herbal notes",
-    palate: "Sweet agave, hints of pepper and floral undertones",
+    pallet: "Sweet agave, hints of pepper and floral undertones",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_dl9-FTiH0n3aZOpeJlx1AiVeBKGsEmOJkBKEoqbZDmH42jGpML8u34G_eKm9e43exPGqOM_3MrN7D7LGEhOoScaTBMrjG7bEyS9sY-QcclFSObinkqWh_DLu9aCrcBOCMSiGgovVii3B5kxOhav49=w367-h679-s-no?authuser=0",
@@ -328,7 +328,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Earthy agave, floral and herbal scents",
-    palate: "Sweet agave, citrus and peppery notes",
+    pallet: "Sweet agave, citrus and peppery notes",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9MeaLh4HDdIWaCJb8tJcB8tfJI_XNnwywuT0v9sx05eBSBZJWAdXSUv3M_kX8A8D5_wwxbPIm_WnFBlJGAiNfj-cBM_UYJkJvM0JjJKhrBnK0UOD62_2Dh4qLR3-1IJfR1Rgi5tt7Z8BKHGo3nWwmr=w390-h639-s-no?authuser=0",
@@ -340,7 +340,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Cooked agave, fruity and slight floral hints",
-    palate: "Agave sweetness, tropical fruit and gentle spice",
+    pallet: "Agave sweetness, tropical fruit and gentle spice",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_U318Ar_T9FG5aliU_4JG_VpSXkMQIhAgxv0rc2-ccY1RWvLUBhs7MTnz9GZqqYW4NdHiSjKG4mnTS2HWeQkGwTGhVIAuw6WoOUT4ZjxeDtVgpadHjFPjQQnwmHXJfRiB-2h0CtEzzYWEL8YxLQ-DJ=w422-h591-s-no?authuser=0",
@@ -352,7 +352,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Agave, vanilla and caramel notes with a touch of oak",
-    palate: "Smooth agave, butterscotch, and toasted oak flavors",
+    pallet: "Smooth agave, butterscotch, and toasted oak flavors",
     appearance: "Pale gold",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_R-02uP6h2oKrePTqvqgVThdl5VlkED8eOFMjju63wHNDebaRRBDv5hpYqMougzYGmksQLVixVRHUNrjjwyIVNHrfF7-wqleqmWZwq3hnteech8nAj0YaY0FqPGH1tclxYHGQbim7rWV0G6R3aIkTT=w422-h591-s-no?authuser=0",
@@ -364,7 +364,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 47,
     aroma: "Cooked agave, prominent oak, astringency, caramelized apricots",
-    palate: "Deep roasted agave, vanilla, fresh herbs, black pepper, cedar",
+    pallet: "Deep roasted agave, vanilla, fresh herbs, black pepper, cedar",
     appearance: "Slightly darker golden than traditional reposado",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-_pToYVCOlLdlOwJSTBE1IF-AH1toomcVs-dLBM4uzEIRerWujuzWMJ4abnQXdgQ_6ywQuyyMuplV-wE2-lQufWpPeSpOX_1dpXofDFbMjS71QdM37uBjfYUTtGsNoN5e0god2bKz2Taq252rs5VP7=w442-h565-s-no?authuser=0",
@@ -376,7 +376,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 43,
     aroma: "Aroma of vanilla, caramel, oak, citrus, cinnamon",
-    palate:
+    pallet:
       "Smooth and full-bodied, dark chocolate, honey, roasted nuts, long and warming finish",
     appearance: "Golden yellow",
     image:
@@ -387,9 +387,10 @@ const tequilaData = [
     brand: "G4",
     name: "Blanco",
     origin: "Jalisco, MX",
+    style: "Blanco",
     abv: 40,
     aroma: "Cooked agave, herbal, vegetal notes",
-    palate: "Black pepper, butter, smoke",
+    pallet: "Black pepper, butter, smoke",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-rCMyCWtywM6umMvYW_7obBn9XTZasn5NwcEmtwENRmLW2ly8fqLWXckXegBV4WDnoGE8MtrMAtA1vuYgE-y43AvpszdbkmzT65eA17zT7cn948vGR21CNETjRzChQW8wr5eTjgUDXysjK0wg40Ok4=w367-h679-s-no?authuser=0",
@@ -398,9 +399,10 @@ const tequilaData = [
     brand: "G4",
     name: "Reposado",
     origin: "Jesus Maria, Jalisco",
+    style: "Reposado",
     abv: 40,
     aroma: "Vanilla, black pepper, cinnamon, grass",
-    palate: "Oak, caramel, citrus, butter",
+    pallet: "Oak, caramel, citrus, butter",
     appearance: "Light Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-1nvLOvQ7GA6zVN2xs6zydW4tPkJ_0g-gmSilh3IVRKiCemwyfH4AhwfMHMWiGiTjYU3OFprgrSIF8F27t80WIt2uiMzuQMZ4djfYvb7uiL5jlwHXJ5OIpAwNv9ogC9H9IWEf43XT8bFaqvyXJyQck=w367-h679-s-no?authuser=0",
@@ -409,9 +411,10 @@ const tequilaData = [
     brand: "Grand Mayan",
     name: "Extra Anejo",
     origin: "Amtaitan, Jalisco, MX",
+    style: "Extra Anejo",
     abv: 40,
     aroma: "Sweet toasted oak, caramel, vanilla, cooked agave",
-    palate:
+    pallet:
       "Sweet toasted oak, caramel, vanilla, dark chocolate, mascarpone, butterscotch, cream",
     appearance: "Dark Mahogany",
     image:
@@ -421,10 +424,11 @@ const tequilaData = [
     brand: "Herradura",
     name: "Silver",
     origin: "Jalisco",
+    style: "Silver",
     abv: 40,
     aroma:
       "Olive brine, tapenade, musty cucumber, bell pepper, vanilla, cotton candy",
-    palate:
+    pallet:
       "Cerignola olives, dried oregano, vanilla, candied citrus peels, pickled jalapeños, asparagus",
     appearance: "light straw",
     image:
@@ -434,9 +438,10 @@ const tequilaData = [
     brand: "Herradura",
     name: "Reposado",
     origin: "Jalisco, MX",
+    style: "Reposado",
     abv: 40,
     aroma: "Agave, vanilla, caramel, orange",
-    palate: "Agave, vanilla, oak, spice",
+    pallet: "Agave, vanilla, oak, spice",
     appearance: "Caramel",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9XedS4pgPunzBwD9h643PsraEUSBrSnYsDzRACn16da0vXFq2qfUDKNXhkgjpKHhT0NUMT5Yjp65Pll90S-RXmglKKTKOTMclQIoldK3Kx9gDaP4BaYIAfBbXwWT2cbNhW5deQYzvUp-BqDZAy7IWE=w367-h679-s-no?authuser=0",
@@ -445,9 +450,10 @@ const tequilaData = [
     brand: "Herradura",
     name: "Anejo",
     origin: "Jalisco, Mexico (Los Valles)",
+    style: "Anejo",
     abv: 40,
     aroma: "Oak, caramel, vanilla, honey, butterscotch",
-    palate: "Cinnamon, candied walnuts, buttery, slightly peppery",
+    pallet: "Cinnamon, candied walnuts, buttery, slightly peppery",
     appearance: "Amber",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-OzpfI7r9k2lEQS_8kpRGUNeXu0qTKDoyCfZZCBUIuJX5t7wleA0wzjJM4gprm6mduU82L3Dox--QT-FWtWCIgsI2ndsEnHYgWoTRSL1DSVtxG6XrN57XrXVOHnFz-9CvOACZ3VQL8cGueBs-DhpNb=w422-h591-s-no?authuser=0",
@@ -456,9 +462,10 @@ const tequilaData = [
     brand: "Herradura",
     name: "Ultra Anejo",
     origin: "Jalisco, MX",
+    style: "Cristillino (blend of anejos then filtered)",
     abv: 40,
     aroma: "Vanilla, agave, caramel",
-    palate: "Heavy coconut and vanilla flavor with subtle caramel",
+    pallet: "Heavy coconut and vanilla flavor with subtle caramel",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8qPuSDAFc71emu3K21oTsE982RPAwN_H9aL2QwbIgPuC6PbR49b79D72qTEox5ddfyytP4XDfxWtA5poYLpRTdV7b-89_1xESA-xchsoHv0O1nIMrISd3a-4FMbCfnWFJnYcA84e_lyxMRxyK-w9Qk=w422-h591-s-no?authuser=0",
@@ -467,10 +474,11 @@ const tequilaData = [
     brand: "Jose Cuervo",
     name: "Reserva Blanco",
     origin: "Jalisco, MX",
+    style: "Blanco",
     abv: 40,
     aroma:
       "Light aroma with grass and jackfruit, lime, salt, and sweet peppers",
-    palate:
+    pallet:
       "Mild flavor with accents of key lime pie, vanilla citrus cream, baked prickly pear cactus, and bubblegum",
     appearance: "Clear",
     image:
@@ -480,9 +488,10 @@ const tequilaData = [
     brand: "Jose Cuervo",
     name: "Reserva de la Familia",
     origin: "Jalisco, MX",
+    style: "Anejo",
     abv: 40,
     aroma: "Zesty, dill, fennel, pepper",
-    palate: "Semisweet, caramel, vanilla, marzipan",
+    pallet: "Semisweet, caramel, vanilla, marzipan",
     appearance: "Dark Amber",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_TfW5-4vAkWDO9gWr8HUDvPfom_A0TogwhToQTTaa0NP1CdhXMRpGwR27w0j3oAVKVBO1OtQXDu9ByD6YWc7S4RJ_ZFXJFkHWOAMPvoQ8cTcINBVSjvhOFrqne_YuhWblZfCFNiMDzElJz-dF63rA6=w500-h500-s-no?authuser=0",
@@ -491,9 +500,10 @@ const tequilaData = [
     brand: "La Gritona",
     name: "Reposado",
     origin: "Jalisco, Mexico (Los Altos)",
+    style: "Repasado",
     abv: 40,
     aroma: "Vegetal, light minerals, grass, citrus",
-    palate: "Raw agave, touch of vanilla and oak, slight white pepper",
+    pallet: "Raw agave, touch of vanilla and oak, slight white pepper",
     appearance: "Very Pale",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8RNAM0UaWEHthZ-dzzKdvhGwsJTmOWNXIuFK2ToRT55BlYO1ZU8EtJKrFRDWGZoXwVjcnmnLmQltssRhtIYsUZKbEaht0-h3k_A2_qmUMOc8ZwzW1mEO3U1zawzW0ns11B_Mqvr5xgsCTkE6GR3TJb=w422-h591-s-no?authuser=0",
@@ -502,9 +512,10 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Atelier",
     origin: "Jalisco, MX",
+    style: "Extra Anejo",
     abv: 40,
     aroma: "sweet, buttery, vanilla",
-    palate: "Lovely, mild on the tongue",
+    pallet: "Lovely, mild on the tongue",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9EISIc7Z-iKgO_XQMwSsV18bEOXfWk5zQHflkfkSdmPKKHZvFCafTNMDw3lA0tgAedobEb1BoK_Mg2TVEKnf-A7WXqrGDsLMdUALE8UOldBTk7o2nST1syi2F-qxJnWlOvoQnCJAH2jNqWSmed_gVq=w299-h600-s-no?authuser=0",
@@ -513,9 +524,10 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Diamante",
     origin: "Jalisco, MX",
+    style: "Blend",
     abv: 40,
     aroma: "Vanilla, pepper, citrus, oak",
-    palate: "Caramel, honey, maple, vanilla",
+    pallet: "Caramel, honey, maple, vanilla",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8gOxaSczScHJJ-MzhZIJfw1O_weJbwCewluXdQNPsLtA4o1hMIABsGCbWi8Z1L4F2tGSiHpzz8hLwZonQMqUWLLEZik5x1lnz49ERsz9w-CXloL8hmO02jduP9f3ZDdu1YoIO7FObuwEKGGPqiZzAH=w480-h520-s-no?authuser=0",
@@ -524,9 +536,10 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Humito",
     origin: "Jalisco, MX",
+    style: "Silver (smoked)",
     abv: 40,
     aroma: "Smoke, agave, black pepper, earth, vegetal",
-    palate: "Smoke, tobacco, charcoal, wet earth",
+    pallet: "Smoke, tobacco, charcoal, wet earth",
     appearance: "Clear With Touches of Silver",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_rUef_YTZ1GrVFiJM-6dHxi1C7yqKpBIueEUxw8uAEZ6tA1XCF8wN7p2SXTaPmTvdFjNIWJoN0ic9uFwX-ZAz6vfDnBorot0_Uhk5tcgA-lKiktuyn5vFpT_v4gg1acybajIv3aww0GF5K-9cALAB6=w367-h679-s-no?authuser=0",
@@ -535,9 +548,10 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Silver",
     origin: "Jalisco, Mexico (Los Valles)",
+    style: "Joven",
     abv: 40,
     aroma: "Buttery caramel, olives, and dried fruit scent",
-    palate:
+    pallet:
       "Range from caramel, honey, and maple to nutty with notes of vanilla",
     appearance: "Bright and Clear",
     image:
@@ -547,10 +561,11 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Reposado",
     origin: "Jalisco",
+    style: "Reposado",
     abv: 40,
     aroma:
       "Buttery caramel and fruity notes, with touches of cinnamon and almond, with a slight hint of smokiness from toasted wood.",
-    palate:
+    pallet:
       "A mix of sweet, nutty, and vanilla flavors with indescribable smoothness and a long finish",
     appearance: "Bright Gold",
     image:
@@ -560,10 +575,11 @@ const tequilaData = [
     brand: "Maestro Dobel",
     name: "Anejo",
     origin: "Jalisco, MX",
+    style: "Anejo",
     abv: 40,
     aroma:
       "Buttery caramel, almond and cinnamon notes, pineapple and apple with a slight smokiness",
-    palate:
+    pallet:
       "Wood interspersed with sweet, nutty and vanilla flavors, with slight notes of agave and fruitiness. It has an indescribably smooth, long finish",
     appearance: "Dark Amber",
     image:
@@ -573,9 +589,10 @@ const tequilaData = [
     brand: "Milagro",
     name: "Select Barrel Silver",
     origin: "Jalisco, MX",
+    style: "Silver",
     abv: 40,
     aroma: "Crisp, fresh, agave-forward",
-    palate:
+    pallet:
       "Crisp, fresh, agave-forward with vanilla notes and a spicy, dry finish",
     appearance: "Clear with Platinum Hue",
     image:
@@ -585,9 +602,10 @@ const tequilaData = [
     brand: "Milagro",
     name: "Select Barrel Reposado",
     origin: "Jalisco",
+    style: "Reposado",
     abv: 40,
     aroma: "Golden honey, buttery smooth",
-    palate:
+    pallet:
       "The taste is clean, vanilla, with white pepper and cinnamon spices and a dry finish",
     appearance: "Clear with a platinum hue",
     image:
@@ -600,7 +618,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Oak, orange, toasted coconut",
-    palate: "Agave, stone fruit, butterscotch",
+    pallet: "Agave, stone fruit, butterscotch",
     appearance: "Light amber with golden hues",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc871cQkkNoFzI4l5OJwAujzIaVmYO1OETxR2u9jaArKGCPv05-5J2TlFpdOldTQcaojV8f11kc_FDU5WjIJqZKGKF8EXzCzY0ekQDZ_tmyu4J3quM_fDLByE7lIc5wZtahrZm1bAEAxqkUyiW5Vqfhe=w422-h591-s-no?authuser=0",
@@ -612,7 +630,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Cooked agave, citrus, pepper, flowers",
-    palate: "Cooked agave, pepper, citrus, butter",
+    pallet: "Cooked agave, pepper, citrus, butter",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8EW6HCP-0Fcuq86jwUw1-uUxyDPXm9aG3pdbp6oKqB1Ea-b9cdaTog7wuwRU_I-w1s0sFSWft1765umxb5yOcmXmg9srCMGcJgB6DmAjbd36PG8XS4SJEOosVMB9au4_SfXrJfNLp_vXFznf1WPI7c=w367-h679-s-no?authuser=0",
@@ -624,7 +642,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Cooked agave, oak, vanilla, banana",
-    palate: "Cooked agave, pepper, oak, banana",
+    pallet: "Cooked agave, pepper, oak, banana",
     appearance: "Slight amber color",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-5ypwK9ln0fMM5gGkKET3fASPunIpG2KRg7gKgBrhS_bHZbiAfflDfuuPn0tpvjt-838H6xUNO-lCdfxspPShUMpp6e44luo2rZhVsSHqjNo6M9EzIN-32YOrb8PLeBP19GN0ZayzAIeyQECzMuZOo=w367-h679-s-no?authuser=0",
@@ -636,7 +654,7 @@ const tequilaData = [
     style: "Silver",
     abv: 40,
     aroma: "Fruits & citrus",
-    palate: "Smooth & sweet with a light pepper finish",
+    pallet: "Smooth & sweet with a light pepper finish",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_3kdIE1xrDOXAclGOe9Wg9ytrdgsSrKjt4N18PtPKbGcc2XEfRQSi_RQguubufdLeh9naGAG2SQlVI-BefEKtQAOPNBfAFtjfcs7zD0rFfrSVvXXBzdLoyqdmLw7z4hYiayhWK5InggLa2YgoPPJDB=w400-h603-s-no?authuser=0",
@@ -648,7 +666,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Oak & fresh agave",
-    palate: "Fresh agave, oak, citrus, fruit, honey",
+    pallet: "Fresh agave, oak, citrus, fruit, honey",
     appearance: "Light amber tint",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8Vafm4R5taS9780oXHM1e6fIP4xdlLrtH6KJKOH8lT36Ij6ajvcdO5g2dkjQPI3UNvy0APB-UJyIN4uyfUnaIyWylo4WvPHZOblp1-sM2BR2DU79x29VMBiDy0MMGPXLzSIB2DAgfY9NcT9ZJ138To=w400-h603-s-no?authuser=0",
@@ -660,7 +678,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Oak wood, vanilla, and raisins.",
-    palate:
+    pallet:
       "Oak wood with notes of vanilla, raisin, and honey with a caramel and smoky finish.",
     appearance: "Warm amber",
     image:
@@ -673,7 +691,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 42,
     aroma: "Cooked agave, oak. vanilla, caramel",
-    palate: "Black pepper, whiskey, cinnamon, wood",
+    pallet: "Black pepper, whiskey, cinnamon, wood",
     appearance: "Light golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_J9Yq-An7UXRILV0XkE-Ji-W2M7QwjBb3pMgYsFNYXTIYfne1OFrTqvPfOYyVb9OOcvHxv653E5Fq3HpoelhLN6yXDZaOdoD7v8b77P1F5ExtGnsaZium8EhTaJm29EC91WM4zfi2gGZm_P3_3d_qE=w367-h679-s-no?authuser=0",
@@ -685,7 +703,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Citrus, cooked agave, pepper",
-    palate: "Fruity notes, cracked pepper",
+    pallet: "Fruity notes, cracked pepper",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8N5AvSNBRK23gRAArwtgcJfgtnRpeR50XBN6BZUDnWHMZimSLUTn9Ya9diBqH15KxQLoXR_p08wHFNAARz4iXjHBEru3-dGkTmbsuW1Xnl9U5dND09RNV440INmcUn6yYeCuqMngySCsdxbO2TuqMl=w500-h500-s-no?authuser=0",
@@ -697,7 +715,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Citrus, caramel, vanilla",
-    palate: "Vanilla, oak, mellow agave",
+    pallet: "Vanilla, oak, mellow agave",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8EiP7PmK28odlzh92IX_3ks2UPu23orqAL6ffTDsf93kOePi6zMx1WtNOUafOjEKSq0ofj8PPe5i5xoQjeF5si_SvELffxFAV2eextqZOfx2lR__Rpk3JocUy24gLkefc8nEy8BozDB0FwgoVlsxqK=w500-h500-s-no?authuser=0",
@@ -709,7 +727,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Black pepper, earth, vegetal",
-    palate: "Crisp, bright, citrus, peppery",
+    pallet: "Crisp, bright, citrus, peppery",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9M1c4ZAFw-ExLi-8bSwGSeR5KAwGknEzdmUhiXNmnOQRX1HTVPI4w31W2hI8zKcQfcib1FHx_RUB7k8zXYl3nyUnFkiA6Q_iSCcQ9_uDwVb09mMTaIE-9ila6K8OFz150nhzeeWqUIWkn1P-8dSXIA=w500-h500-s-no?authuser=0",
@@ -721,7 +739,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Agave, oak, citrus",
-    palate: "Slight sweetness, vanilla, caramel",
+    pallet: "Slight sweetness, vanilla, caramel",
     appearance: "Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9U3r2zC--TSsbQ2qxj73mbwWI0n2Wldk_IX_uZwZaOlUnPDBBdzIRVGKGU1zyiQaaF3AaS57KhJceLyqUKElbhGK9xfhAJV4N5imzmyeuMS0CUsat6-nEYua8u-TO7aj4ycQTmjgzA5Vk8DEAo53o5=w500-h500-s-no?authuser=0",
@@ -733,7 +751,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 403,
     aroma: "Agave, oak, vanilla",
-    palate: "Caramel, vanilla, toasted oak",
+    pallet: "Caramel, vanilla, toasted oak",
     appearance: "Golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_sgd-LR58Rdu5cKTSzXL3ex9bYZwiQRTFm9DbUX1iL5oFxm-aBTJAznUBud5eLPov-slwpkP5he_OIpHZEcJgWwndRuRSQ1TASG6wATx3LrtGUkTEOplCXPTYLPhhxJQE1J_5otIQ1dVD2AuNrRZ29=w422-h591-s-no?authuser=0",
@@ -745,7 +763,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Cooked agave, citrus, vegetal, black pepper",
-    palate: "Sweet and vegetal notes, cooked agave",
+    pallet: "Sweet and vegetal notes, cooked agave",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-yorpImU8aztbmKi_PIDyQE188XHWrmHrw1hG4tu2lspGaGdQI3kfJu4ezTse_MBab-PjL9JLh7KYC72VWIicK_MMUf7t1ZQRtN7PU1Zb_bIeoHcdCJLMosohGnr7mU8CXeM-Rv4x-Fat2mgNi7GPe=w422-h591-s-no?authuser=0",
@@ -757,7 +775,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Vanilla, cooked agave, caramel, citrus",
-    palate: "Oak, black pepper, earth, cinnamon",
+    pallet: "Oak, black pepper, earth, cinnamon",
     appearance: "Pale golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_9ErbTQo9jGmg7gj9ETjFhzMsKo0OYmYHULrTDBZhLGL9rNnCDpwjydnCLE5z1cdblbTFC2ptdY8OBSW0nJn27AbsHFGy4bEM3lwuDb2Le4wGYG4Xa6e-cwJSTnIN98pDKrejX_huW1oK0V3IEPbTF=w422-h591-s-no?authuser=0",
@@ -769,7 +787,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Oak, vanilla, caramel, fruity, butterscotch, earthy",
-    palate: "Oak, cooked agave, butter, caramel, apple, baking spice.",
+    pallet: "Oak, cooked agave, butter, caramel, apple, baking spice.",
     appearance: "Amber/caramel",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8RukUjCXUdT0LPNrJ2gp1p3pv6a_v8qeBtM4ZQkKUq0fHgYvDO3ajphxXwzbT7u5TxF-D-1DZn6rEisCrInxGfeA_PsUlHqo5pg4bX0OOoUThGdft6VCUYR9igzcr9Zclxt1-Pjog42OYEep43x0rS=w422-h591-s-no?authuser=0",
@@ -781,7 +799,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Herbal, earthy, vegetal",
-    palate: "Agave, peppery, grassy, citrus, blast of cinnamon",
+    pallet: "Agave, peppery, grassy, citrus, blast of cinnamon",
     appearance: "Clear, silver tones",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_cCd2P6IoFP4mN9fAekb6Vgnvy3ln_rz4SBE8C6AJ8xJXzkJHf4_AXnRF9iz2jduP4tm9yuG2JXb4De1T2Ggpat1Tr2KK86pXolK_HuqoD1hLyssYtABOhGdYWuSXRM8-zKdPGfsibl1a2BfaGPw6T=w422-h591-s-no?authuser=0",
@@ -793,7 +811,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Crisp, bright agave, herbal",
-    palate: "Full agave, fresh cut grass, earthiness",
+    pallet: "Full agave, fresh cut grass, earthiness",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-4kZ51MyGCo38xrBuJg-OYzCbywHKt3vvSS5CztGTdSj2fjOYGLIU0HqiCpidbePovXXhqhH1TKpFyHBt-Vbq_4XH6iq6n1w9fKsNw4oE8vDT6H6H0HlWWeaJD8GePDI9zO7-ZFveURm1XPjG_k_MR=w422-h591-s-no?authuser=0",
@@ -805,7 +823,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Cooked agave, vanilla, butterscotch/caramel, oaky",
-    palate: "Nuts, orange, spices, sweet, clove",
+    pallet: "Nuts, orange, spices, sweet, clove",
     appearance: "Translucent amber",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-OZ59WgBAG76TUb_OeYxVh6boB5F_IozRKwlwr3huYM-sEs152q2X9XjV0Svurtmb3zN4eNiPCK0cSDY6rzERFwPeER6KuehhQjMBnKRSWOyPgvP2xnNSqnNxvVmXvnrsLxCy-6FQ1w-UJ2Tudc65k=w422-h591-s-no?authuser=0",
@@ -817,7 +835,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Floral, mild, light chocolate, agave",
-    palate: "Honey, butter, cooked agave, vanilla",
+    pallet: "Honey, butter, cooked agave, vanilla",
     appearance: "Yellow/golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9feQjIHxvfvKDEledtH6ZFxz3YmC-M6fdlP-4veJ3zTBlB1Bg7GkWU6wXP-p6Y8OrtyViZQ7tNEvQRryAkW7v6MaRBdtnc8opXEdEOVidpykhMg16_A9Vwq0bkR7oLGELTG-74b8FRWZYbkFQT1qoZ=w367-h679-s-no?authuser=0",
@@ -829,7 +847,7 @@ const tequilaData = [
     style: "Anejo",
     abv: 40,
     aroma: "Agave, vanilla, oak, caramel",
-    palate: "Agave, oak, vanilla, citrus",
+    pallet: "Agave, oak, vanilla, citrus",
     appearance: "Light golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9MU4-QyXA2HRY0-xZMZEbFdvmWGD2qaQj5G5eVhOY-VsJ6xJewfp9i2SvHR5N2hvLFuUJvVi3MfhoMokMKqcDAqo8j3un4zC1hSjNuC_vyr-PdiCpdRMw1EpDm8cLMtr-vWY02tCDz810yLqp8LrPS=w367-h679-s-no?authuser=0",
@@ -841,7 +859,7 @@ const tequilaData = [
     style: "Blanco",
     abv: 40,
     aroma: "Sweet, citrus, agave",
-    palate: "Herbal, citrus, caramelized agave, lime, honey",
+    pallet: "Herbal, citrus, caramelized agave, lime, honey",
     appearance: "Clear",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-6m9F3aU0nnH0F3p3pI4TQbwVjXGvx1cELrZFYBvcYJhdjIboZswM0UMKgvRirAOBN9EV9aBMmov1ZuyI7d3kKRHqpBi1MX8IBUmlZsJo8En2743xMqyhDMMXug9n0cz2i2CJuifil9DEcQfQE5ZiT=w422-h591-s-no?authuser=0",
@@ -853,7 +871,7 @@ const tequilaData = [
     style: "Reposado",
     abv: 40,
     aroma: "Roasted walnut, smoked wood, cocoa",
-    palate: "Chocolate, brown sugar, nuts",
+    pallet: "Chocolate, brown sugar, nuts",
     appearance: "Yellow/golden",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc98HKJTbeeChbYgU4ScYS9wNUEW18PrYzqQ6u_6W8Pp2HI9-OBzo5YCe0vk_cLWM5GEi_w9rV0vn7Z2dMSE_Inuqf8s2dQ8eiAjvLNGIT3I2sxTez_gZ0ixH4ThbN5MvRZbwiCTWP26vhQhDV2yKmfp=w500-h500-s-no?authuser=0",

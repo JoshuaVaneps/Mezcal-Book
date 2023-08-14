@@ -19,16 +19,16 @@ Tequila.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    origin: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     style: {
       type: DataTypes.STRING,
       allowNull: false,
     },
     abv: {
       type: DataTypes.INTEGER,
-      allowNull: false,
-    },
-    origin: {
-      type: DataTypes.STRING,
       allowNull: false,
     },
     aroma: {
