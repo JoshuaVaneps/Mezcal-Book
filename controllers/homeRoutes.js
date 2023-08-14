@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { Mezcal, User } = require("../models");
+const Tequila = require("../models/Tequila");
 const withAuth = require("../utlities/auth");
 
 router.get("/", async (req, res) => {
@@ -50,7 +51,21 @@ router.get("/edit-mezcal/:id", async (req, res) => {
 });
 
 router.get("/tequila", async (req, res) => {
-  res.render("under_construction");
+  try {
+    // Get all Tequila and JOIN with user data
+    const tequilaData = await Tequila.findAll({});
+
+    // Serialize data so the template can read it
+    const tequilas = tequilaData.map((tequila) => tequila.get({ plain: true }));
+
+    res.render("tequila", {
+      tequilas,
+      loggedIn: req.session.loggedIn,
+      isManager: req.session.isManager,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.get("/cocktail", async (req, res) => {

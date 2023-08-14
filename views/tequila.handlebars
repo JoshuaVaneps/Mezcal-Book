@@ -1,0 +1,18 @@
+{{!-- {{> tequila-swiper}} --}}
+{{#if loggedIn}}
+{{#each tequilas as |tequila|}}
+{{> tequila-details}}
+{{/each}}
+{{else}}
+<div class=" p-2, mt-5 mb-2 justify-center">
+<h1 class="home-log py-sm-2 py-md-4 px-2 text-center">Please Log In Using The Form Below:</h1>
+<div class="d-flex justify-center">
+{{> login-form}}
+</div>
+</div>
+{{/if}}
+
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="/js/login.js"></script>
+<script src="/js/logout.js"></script>
