@@ -11,7 +11,7 @@ const tequilaData = [
     pallet: "Lemon, wine, herbaceous, vanilla",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9dNEjWkSuwKIcdlf3D7Uyegnf9rr7ovwWw5-O1ieLtOHL_mprAXMrKgSJVIjpxc9hKlPGGO6cMG1ooImhscu9xrvdYpkaQgD4TFqdwQ3hvNvsfPaW7IMXXq9yhai-f100zHz5Sj2xHcJmFjnpltlV5=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8WJXgOZ3FfuJg4GrqH0ReQ7sUtUkwgIqLWivwEqJFsagbyWW5wdRkb928bL_P1ZFxc9nX3CwmfAiJ9I4DLhnWYCN93CL1mN4GOyrPC2N8HvxINW8Hx5E0DAy8bPIMKkWV_ZN0uzOJTaI6weAqOK9de=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Tequila Arette",
@@ -23,7 +23,7 @@ const tequilaData = [
     pallet: "Spice, pepper, minerals, vegetables",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_wRif20cjsNM796-vR6NUUC28XiPSzJe0L4ZGWqA6dGdW-3wXRaECtrV1uh4YCuYtcaABk1h1aa2vtaRKRH08GpVXdfEvR3zfyguMUH5neO6FCwhwBjZR9agNacuRP5ww-NEjEUsYWXtQF4tBaITHT=w300-h600-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8MF_INIamVNb9K0UCxBXwDp1gT_dfyVXxQhQTYd9MLc-L6BkL9FlireJXTmmWm7XNXwwGq4wW-UoX3whg_l9N3GOzMQexHLwLbz87gCxcWW2E0FHDqlaosV8DPmUygdBZ3bM9OyLJDuWWUCRtqd7Iv=w300-h600-s-no?authuser=0",
   },
   {
     brand: "Altos",
@@ -35,7 +35,7 @@ const tequilaData = [
     pallet: "Citrus, oak, cinnamon, black pepper",
     appearance: "Gold",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9-1gC7Ri2EkhsVYZjE-U-gg8_I9mgbMhbUzHjFYjCBp0TvhpVsZJCwr8NxnQ-ViYa28MVqwLOvnRsdfb2uGki-zObLP1K-N0TRD_XDsjP66E5aHSQ8zBdhKorWO4-fTFdqyEP2kYrDmV_GB2mKS7WO=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9nj1LUphL-N5Tdz8YbDt8ZcfyE908NQ7hHY4UX_NtC8y9NE-8U-OObJxhPPPxdK29RiHL8N_Y0XRy9WGK7JmbVSCIdabPgClDRZbETH0miAe664NGqiAQf5OWTuIUmd6uA5DRJpwnB9mu1Yw5weV-P=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Atanasio",
@@ -48,7 +48,7 @@ const tequilaData = [
       "Cooked agave, vanilla, tropical fruit, cracked pepper, vegetal notes",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_ejsb3kKNyBNs0gXM-XSX5oiH5tXtr0qgDhwYMYs3-pMSB7P9ESk1gfij8mAQkjGOJ1-qVnStlJm5VCW7qMLhAAKO8XcFuxQw_nm-X62xSFB2uG_8KaPlnz5pan9Fg4Y2uL9Khs74rSo80ztFJzhvu=w367-h679-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-wKAfeCcOh1fYLKpFXSmj_J7_wOPmN3Mw-ctoQP8LNd2lTfElRnntu8KeuuglFu0SPRGh8QsT1j7ebEpJ4-WNiItQ5UCko2TznEA_6W2Eq0KRq4xMi54pSLbhqoOApaNHyU6_Z-z1eStJ26Pvp9sIV=w367-h679-s-no?authuser=0",
   },
   {
     brand: "Avion",
@@ -60,7 +60,7 @@ const tequilaData = [
     pallet: "Floral, peach, pear",
     appearance: "Gold",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-laUcN4HOjnU-eACsIs5rCdeE-RTSIrtGWVrndw67eUy_xBhONQUQZbWNlNjkW2Ybc4uJm5GhgxjMaVX7a9EsQSsuNu83mwBZtaNDWwp8oqBzNWVnh_hZ1evbfVhbzb7R0B3gJn7owJkOI71uu0LhK=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-6vWL1whxyl5IPQ-gYZsIsODCQ9StENg3Jax4w803QcGFlLxxw9t_e-soODBmBAwk3urx5g3Uo5zcwSguQpGA9sGlQdPE7Nj6j_zqbgwvl1xTVDAollPRK6d-YwmowweXhyauTyKSM6EXEQ6q1U4cE=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Caballito Cerrero",
@@ -72,7 +72,7 @@ const tequilaData = [
     pallet: "Fruity agave, pepper, dill, pickle brine",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9ODWgsJ8doSwWJDrqMYGpTsIK_y_eBAnNZtGA25OFC69I_-vcedh7P2f6E5egOBC7YO_uQCRi66iHjNwg7QeEb4RnrkAzXTzFKRDE2VgvgzqwZJuDEY53dObgnUD_DcDqlpw9_Qb9XEOolHys14aEu=w367-h679-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_imS6nbPsEafeP1oIx_aj1mtzyfoVXr7P_b409BDLnQzI4v-maWawT46na8qcNauNMXyvhUh9GjgGX3TyPDLRnSvgnL6g_ypbwvnYuH5q4f8EOtgYESScvwAFjbth_MKLfGjf8Idbbgrrrwp-howIE=w286-h530-s-no?authuser=0",
   },
   {
     brand: "Casa Dragones",
@@ -85,7 +85,7 @@ const tequilaData = [
       "Balanced with semi-sweet notes of agave warmed by hints of pepper and cloves",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc8FB-nIs3lxZlURKBPzOZcj4ZoS-txDHtj3h7Ud41Gp_xTeBILEZFy0SRMSCdHYTwAYosYdiHSKqHTNn0mq7u5lxd56sUQwSm5OglQjvmVNgYYLlLSHWGdQmO3ePoPE7S9-lzAOU2JKahNLBaP8guEM=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9wRYuFxtBsgRfVrzdfQEsZebVAXknNsCqf1NUnod7B-_kS3_iWwVFzwfJ3OyPoxnWR3xbvV4QNGsWv3tq6PDgRREhD6JrmGdPUFasQPh_JkLS7XqrbEpxeSNFSrjFnZ0mhU2nUUrvUM1_rS5pyidLA=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Casamigos",
@@ -97,7 +97,7 @@ const tequilaData = [
     pallet: "Fruit forward with notes of vanilla and grapefruit",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_dSR-onlnTLbjDj0UDjqGwD0Agj3wVu7cl4r2KDWHj7hbskJtSOSRATqDZP4_WY-TdAFRn2Q6gW7I0v0yYr-4fnRD0WZ0Te5KaKkhxxqkBAwS2Edk-RglYKbMRp0k9SRLe0Jk3MBVf7-7g2NimVN2P=w500-h500-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-WvWWoblovh5Pbd3r5UqCDE2gIloJtk_2qXZiYhhH3cQjULwE4as9TBXdAiykQkT3d0c29zU6vblicvQ_L1Rn6_q0R_RQpWLbvMC0Fv9ZyObHDuuTKfUCDBiS7iZPWod60teRc6HMUNkzQinTL_pqe=w500-h500-s-no?authuser=0",
   },
   {
     brand: "Casamigos",
@@ -109,7 +109,7 @@ const tequilaData = [
     pallet: "Dried fruits, spicy oak, sweet agave",
     appearance: "Golden honey",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9b_wDVd8ZPCdi0b44MKgGP8Hyl5k-F0wRR8rQm4LelCFWWbLJMm63ypTnuuPKeGeDCas-F0dQFP9umJeq1wpAZMMz6kz9JrZVt2vDN-7a0kVHLniKpskQBPE2PhG4XU4iiLHlJFD7azUtackzMovaa=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc89TYDwLx3Kc9m4eYSdS9NDNHOz1eAKjV5mK3CHo56lxrBn4gpvYGJ_cpqut5nwb5OPiQ3zPpV4P1zjIMMZgjfk08Wwql5C5nezoOVQZQZQkoHviSMWxBE83JSB4ljSAZVPVkdHJp-DaQdH0qlZtYG1=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Cascahuin",
@@ -123,7 +123,7 @@ const tequilaData = [
     appearance: "Clear",
     how_to_enjoy: "Cocktails",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-JHyF4bDTmeVaNs1iX_A_58Z6hVYZDBBTIUa9bfvysQOoj0NF3tuHmfyKhwCHiHcck6gKBYzRDdXc7IOWsAZMAfXcpyc7WOGTmGNupPsouW4hVgbacf7iRRBdXvEFbYQN4U9THE8jhmYNaA_DojY6b=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8SYQ2vjPWZCYWqOYMve3xKH_XPJRpARFZzuTKQ6oh09z5PfvGUxOTZLGzwWhjDBPcuJPcKcERmhMr96sF3eyRwSzkJ2XyWz5qHv0nYE6itnKWRZcCxGMvrPg2MGrt5xXZNjfvHKuV_6Cgy0DltKE6p=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Cascahuin",
@@ -135,7 +135,7 @@ const tequilaData = [
     pallet: "Cooked agave, American oak with silky aftertaste",
     appearance: "Straw yellow, clean and bright",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc8d5XN-XwTjxkCrl09AofWjbq5GKCk0_JSoRhcoI4SP-jzg7agpiOVoJ_p4iMgFHcqMBZpnhf_QAPiaHNFXBXz4n9d8ZKh0zV5ipZrQ9PXvKB2qBcXqwyA8Tsd8glvone8aE8BuoVZM1YFNqAoS482J=w367-h679-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_P3n6URNChDb27gHQp_phi_j_9rDpcKkdmOwnPJfAqW2daNdIHri1dXPG8YWyk1lV3BNtlP0yNFq9fcjGaKqfCuW3b3I-5phSrj9Uk55nSiNO7sn1ViESSkvKEq3mEuXmI84Ye4zpAiuMnSYoKuAEd=w367-h679-s-no?authuser=0",
   },
   {
     brand: "Cazcanes",
@@ -160,7 +160,7 @@ const tequilaData = [
     pallet: "Lime, black pepper, brine, anise",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_GWM4E5Ac9YbQJl3I2ILKo-7Us6_DdPk-kYOSCSBOI1_9x24ee0D4HyJ4_cfoFFrtP3Q7-XAHrRDvGsgC36FQ6jllIRciTKePGN7vgFKbInUQ7X55e_OS9GKUN1Aeb73ehJ94QVFCsafpQfwmsAf2t=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc96oiTF_8AOym34fVDQ-m81qUAQqDCPKMGDKhx2Y4oW7f9NjaApAT8oD3Wta-movP3zW3wRrfGiQi1XFpX_UdRdBp2ONq6g_4-7U8zlS9ASoWOgqrVIrgZMOqsW6IkJShwvxVCSx2sm-QGhs_inveih=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Cazcanes",
@@ -173,11 +173,11 @@ const tequilaData = [
     pallet: "Warm spices, vanilla, sweet undertones of coconut",
     appearance: "Amber",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc8qTdM1sGMhmSrrkC2-M6jlLealUIMvqoBj9QjMw3iNk223m4qP9lX0-GM88nJVr6_EsOdnTDn4T95OiiTELl0RYYwP_MU38-ODl3P4B98nrj9J6zbPcqpSJ9nZEKl-cYVlhWFLcEvb7Heg6PFFmIYx=w355-h704-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-zLw2zTaVggeDpsL5i92VNhuhIipHnwRqYBWbJURWrdxX4k4bbCA68oNrz74bz0I_SYsVCzxk6AaJDzNuHouiQimCwSl0C_-cgJMrtXwgGmI5enuPL0r7tKDknnT8P7OdDuWHRlQ1OTnZsHdw7zOiH=w355-h704-s-no?authuser=0",
   },
   {
     brand: "Clase Azul",
-    name: "Silver",
+    name: "Plata",
     origin: "Jalisco, MX",
     style: "Blanco",
     abv: 40,
@@ -185,7 +185,7 @@ const tequilaData = [
     pallet: "Mint, minerals, herbal, peppery kick",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-EWWrCLCPQttzZ53OxCNqatFx-PyG4fQN7WiAo6u8SXJGW7I7JDSOkwM2VJ6WxkXvowVqnAFuy3Cr5kLZILz3hjJgJlOUyqjlidqtEYcAfj7Gps3YPqMvq33yC4vGnqXf4SXRfHZAzTzScmZ-03gIw=w500-h500-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9BuVB9uiFoPrM3v1vOJa4IsCBlrksIRZzsSn3glR31O5tmbjm5jyfsNrPDj-3Xp42kG1zrGS01S3wflz75FPbQr_bCzwAtN8Zvnpr0hPBfk3e_Dp6JskzPxiH38Jp5xBpT8iKje24tuAJU1B9sccrc=w500-h500-s-no?authuser=0",
   },
   {
     brand: "Clase Azul",
@@ -197,7 +197,7 @@ const tequilaData = [
     pallet: "Vanilla, oak, butter, honey",
     appearance: "Gold with bright yellow highlights",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-bX62qe-qNizew8sf7i3D9GrDJSYqTqFqGcl1t2YyjLh4F5NiYyoq1BSS2vDcQBsoibGd7o4uSEQNMjfj27nXoajneIG82hYedAKriCUsjg8J0J3QSGynyBhv6sRjrwB__KqnwxwJKWHYSP7-_MM-f=w367-h679-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8lZRpckXtmXnhW8miqUlWrgbJCAhgEyaeX68E3flOG4BozJqtQ3j-NzcpV2KpzItnu48NaI2H790MZI4PR3HjijleEv31ZuQxc2pG-gSee37ch0roOZ5JdF7ukcrS0G9frSP2SIFbLlyMGuEik7qxc=w367-h679-s-no?authuser=0",
   },
   {
     brand: "Curado",
@@ -209,10 +209,10 @@ const tequilaData = [
     pallet: "Smoke, earth, white pepper, baking spice",
     appearance: "Light golden",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-GJG1BaSkOHi3axz6uS4p0utRvcXZrMTPC2v0hxnPCoOd7O0D0PLWfDLuzCRGjvGrFqkCSWYt4nvhce4ZLKiiPMgYEU-mXvS8fSQhYKPNA94GoHgHhspdaN2eDuwoAwDAhsCYJEp2PgoB6zN45AN5X=w447-h559-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_RpUIEn1Rh40aruDB5YLdQv2aj8Ei08aMsF7IKF8lp67ZNOk8RRZvR8to8Nc5vKG9J8cfwYbKB4nQjUo5mKNhDNVtQEM3IyPnmVJvIVskBgGNG9KIkkVkopu-2_LY3J45ot5g_4kEVhz-NSiB5_hoR=w447-h559-s-no?authuser=0",
   },
   {
-    brand: "Codigo 1530",
+    brand: "Codigo",
     name: "Silver",
     origin: "Jalisco, MX",
     style: "Blanco",
@@ -221,10 +221,10 @@ const tequilaData = [
     pallet: "Mint, minerals, herbal, peppery kick",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9ZzTiNtphGM2l-GKouFA7di5IW4j6MDXDiLBSfEDZMMzFA-AIa4rOesFnxdpuFwvEp6V7AwQwr0iLzgn9JEoDVoA1g5G2X6nyj_sUovxp8FIbDaJqZdIDgaojckfpTL599ur77Zod6cQRkY7sOTB7z=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_zoaTw8G165tGwAIlesNEGtE9mQkA5re8VV4k4oBalMgr8SBha1BaZcBeCqeRgm6jGS8iNoUU8ChzfGmSBWCMi9yeKottkQMZK83mAlKsaYA_HvDF4BANP39MM_53sLT0WkZFmhZVHDkdQl1ijkOEv=w422-h591-s-no?authuser=0",
   },
   {
-    brand: "Codigo 1530",
+    brand: "Codigo",
     name: "Reposado",
     origin: "Jalisco, MX",
     style: "Reposado",
@@ -233,10 +233,10 @@ const tequilaData = [
     pallet: "Cooked Agave, vanilla, oak",
     appearance: "Maple",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_0g_LA0-ctBi7__D4GhG34l0tK26QD0irgrrMFF_17TWIzF8DouS6AT70r35dCZ5AX-d6QppeO2ARqzwO2lseyGaJLTJHO-jo5Dyy8hgTxv5Y3dzemCAqOMcYIhiwfr6DMaldrPEisT3fkXNYYHlZt=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-xi1NvC8LD4I2CiCCu2_Iysvlt4hNgyLb-Py57yud0Fc9CTrV8gznOELY-Dr1ky1A4MK37AcUt7JPRFvGyY_-BG_MhO9NxKcD90bsUCb2tvGWUDsNRXZQW7DT71hMPK7s83M0ML4wh71DRWKXdiqms=w422-h591-s-no?authuser=0",
   },
   {
-    brand: "Codigo 1530",
+    brand: "Codigo",
     name: "Anejo",
     origin: "Jalisco, MX",
     style: "Anejo",
@@ -245,7 +245,7 @@ const tequilaData = [
     pallet: "Spices, oak, butterscotch",
     appearance: "Golden",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc8F1LHYTv-C1rUGXAQEtmpRk7gKtk77SwW4fCYhKstSA1VkUg-NVoLFuzCNTfkzmqq7RlOneZ5spc_zN25f1qPZpqYpLGroq9iiDUyEViwC3esi0rdctDuTzsrlk5OrTsZOMQ2DkyOwFRmdN3ia3Qhn=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8_ua95IB07CASwAKqk1uDCbtrlu2wjSjn3tdE7o5WjQFzJkUmWfQFWIHLZ2dHl9OJnvl68TT7UYY26u52NetGrfpgHfbSDMWdE5r3gYm2eX38wv7ntt_TK7Fralk9wpjo-YNX_r6iKp_Z49Zg2o6ku=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Codigo",
@@ -259,7 +259,7 @@ const tequilaData = [
       "Cherry blossom, honey, wet earth, cooked agave, rose, mandarin orange, toasted oak",
     appearance: "Pink hue",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc93GYaF0284VZK6V85P4hHXwDg0TmDgkVyr1Gw_MPUq2Z7bYXz_AJdq88zzGzipAzEn9gtHP0kQZgIQ6sHMu2RTr7Ke7R5dvMid1jfv7j9sDoi_mgkfIk22XGvjwVx0wJbxL9AY2jO6uLir0Spbrzpp=w500-h500-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9fjVm5CwvcFf_SkyCgTEEHq9cTy7EmFkBpW8u4aBb-QErArZN_GHcJxjnpDSQ2Zf4AYImvkOVopuxlU1MX_YXnVxGrzwF4qBf3Io3Je33kcQg2eYzU0gROhhdK9A5OZLVTkTnT4WcMvZ8TAKW0J9by=w500-h500-s-no?authuser=0",
   },
   {
     brand: "Don Julio",
