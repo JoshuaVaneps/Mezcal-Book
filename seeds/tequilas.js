@@ -271,7 +271,7 @@ const tequilaData = [
     pallet: "Sweet agave, citrus, touch of black pepper",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-_ZtSINw-15cizmVMy_ljyPQTRFtaQoUcFUzDtFt37e4g-Z0eNgNLYt2AjxU3Ukv0UHQITMJxh075DO8SoxiWUxcqBFpKJYw7oY7EG8PleZbeP_wenSy8c9f2hmPUje0rNK7DSbsYevViPsbdo9I8U=w500-h500-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-0I5icfq-ec_FFdhsfaQu_0_bLZmxPqGfUbFwHUkgDzk8h8xizxmNfQGjadg38mZ9UpdDQHs3NeT4xmshgUkmMmhmHsB2iuQyA2_AMjlS1nSdwuN4mZBpY9Dgzm_B4U5pDYp882FjHJNW2dDfyr1wA=w500-h500-s-no?authuser=0",
   },
   {
     brand: "Don Julio",
