@@ -381,6 +381,18 @@ a:link {
   color: var(--light);
 }
 
+.mezcal-bottle-img {
+  height: 480px;
+  width: 330px;
+  object-fit: contain;
+}
+
+.tequila-bottle-img {
+  height: 360px;
+  width: 230px;
+  object-fit: contain;
+}
+
 /*======= Media queries (max-width: 2560px) =======*/
 @media screen and (max-width: 2560px) {
   .section {

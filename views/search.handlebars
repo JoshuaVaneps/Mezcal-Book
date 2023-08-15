@@ -1,16 +1,6 @@
 <div id="search-results">
   {{#each searchResults}}
-    <div class="search-result">
-      <h3>{{this.brand}}</h3>
-      <p>Name: {{this.name}}</p>
-      <p>Style: {{this.style}}</p>
-      <p>Agave: {{this.agave}}</p>
-      <p>ABV: {{this.abv}}</p>
-      <p>Origin: {{this.origin}}</p>
-      <p>Aroma: {{this.aroma}}</p>
-      <p>Pallet: {{this.pallet}}</p>
-      <p>Image: {{this.image}}</p>
-    </div>
+ {{>mezcal-details}}
   {{else}}
     <p>No results found.</p>
   {{/each}}
