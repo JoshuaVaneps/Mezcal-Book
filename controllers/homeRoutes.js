@@ -2,6 +2,7 @@ const router = require("express").Router();
 const { Mezcal, User } = require("../models");
 const Tequila = require("../models/Tequila");
 const withAuth = require("../utlities/auth");
+const { Op } = require("sequelize");
 
 router.get("/", async (req, res) => {
   try {
@@ -97,6 +98,52 @@ router.post("/logout", (req, res) => {
 
 router.get("/image-upload", (req, res) => {
   res.render("image-upload");
+});
+
+router.get("/views", async (req, res) => {
+  try {
+    const userSearch = req.query.search;
+    const mezcalData = await Mezcal.findAll({
+      where: {
+        [Op.or]: [
+          { brand: { [Op.like]: `%${userSearch}%` } },
+          { name: { [Op.like]: `%${userSearch}%` } },
+        ],
+      },
+    });
+
+    const tequilaData = await Tequila.findAll({
+      where: {
+        [Op.or]: [
+          { brand: { [Op.like]: `%${userSearch}%` } },
+          { name: { [Op.like]: `%${userSearch}%` } },
+        ],
+      },
+    });
+
+    console.log("Data to be rendered:", {
+      userSearch,
+      searchResults: [...mezcalData, ...tequilaData].map(
+        (item) => item.dataValues
+      ),
+      loggedIn: req.session.loggedIn,
+      isManager: req.session.isManager,
+    });
+
+    res.render("search", {
+      userSearch,
+      searchResults: [...mezcalData, ...tequilaData].map(
+        (item) => item.dataValues
+      ),
+      mezcalData,
+      tequilaData,
+      loggedIn: req.session.loggedIn,
+      isManager: req.session.isManager,
+    });
+  } catch (err) {
+    console.error("An error occured:", err);
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
