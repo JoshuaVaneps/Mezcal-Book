@@ -862,7 +862,7 @@ const tequilaData = [
     pallet: "Herbal, citrus, caramelized agave, lime, honey",
     appearance: "Clear",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-6m9F3aU0nnH0F3p3pI4TQbwVjXGvx1cELrZFYBvcYJhdjIboZswM0UMKgvRirAOBN9EV9aBMmov1ZuyI7d3kKRHqpBi1MX8IBUmlZsJo8En2743xMqyhDMMXug9n0cz2i2CJuifil9DEcQfQE5ZiT=w422-h591-s-no?authuser=0",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-2x9dn849ekxjvBdyhMF3qC84__EuoZQzJD1SnjECC28ThUV2wqs5ozFj803AgjG1jKCn2mAJmLgpvwKBZtt5_zNWWvEZJge3Z4joVW3X-yCDAylBTagfAGLxQ7AaaKaVoRLoEXGxzayX1vD6fmEW4=w422-h591-s-no?authuser=0",
   },
   {
     brand: "Tromba",
