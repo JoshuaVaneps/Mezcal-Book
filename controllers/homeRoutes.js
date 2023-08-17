@@ -100,47 +100,56 @@ router.get("/image-upload", (req, res) => {
   res.render("image-upload");
 });
 
+// universal search function
+const generateSearchCriteria = (terms, columns) => {
+  const criteria = [];
+  terms.forEach((term) => {
+    const termCriteria = [];
+    columns.forEach((column) => {
+      termCriteria.push({ [column]: { [Op.like]: `%${term}%` } });
+    });
+    criteria.push({ [Op.or]: termCriteria });
+  });
+  return { [Op.and]: criteria };
+};
+
 router.get("/views", async (req, res) => {
   try {
     const userSearch = req.query.search;
-    const mezcalData = await Mezcal.findAll({
-      where: {
-        [Op.or]: [
-          { brand: { [Op.like]: `%${userSearch}%` } },
-          { name: { [Op.like]: `%${userSearch}%` } },
-          { agave: { [Op.like]: `%${userSearch}` } },
-          { style: { [Op.like]: `%${userSearch}%` } },
-        ],
-      },
+    const terms = userSearch.toLowerCase().split(" ");
+    for (let i = 0; i < terms.length; i++) {
+      if (
+        terms[i] === "and" ||
+        terms[i] === "or" ||
+        terms[i] === "the" ||
+        terms[i] === "on" ||
+        terms[i] === ","
+      ) {
+        terms[i] = null;
+      }
+    }
+
+    const columns = ["brand", "name", "agave", "style", "pallet"];
+    const searchCriteria = generateSearchCriteria(terms, columns);
+
+    const data = await Mezcal.findAll({
+      where: searchCriteria,
+    });
+    const tequilaInfo = await Tequila.findAll({
+      where: searchCriteria,
     });
 
-    const tequilaData = await Tequila.findAll({
-      where: {
-        [Op.or]: [
-          { brand: { [Op.like]: `%${userSearch}%` } },
-          { name: { [Op.like]: `%${userSearch}%` } },
-          { agave: { [Op.like]: `%${userSearch}%` } },
-          { style: { [Op.like]: `%${userSearch}%` } },
-        ],
-      },
-    });
+    const mezcalData = data.map((mezcal) => mezcal.get({ plain: true }));
 
-    console.log("Data to be rendered:", {
-      userSearch,
-      searchResults: [...mezcalData, ...tequilaData].map(
-        (item) => item.dataValues
-      ),
-      loggedIn: req.session.loggedIn,
-      isManager: req.session.isManager,
-    });
+    const tequilaData = tequilaInfo.map((tequila) =>
+      tequila.get({ plain: true })
+    );
+
+    console.log(mezcalData);
 
     res.render("search", {
       userSearch,
-      searchResults: [...mezcalData, ...tequilaData].map(
-        (item) => item.dataValues
-      ),
-      mezcalData,
-      tequilaData,
+      searchResults: [...mezcalData, ...tequilaData],
       loggedIn: req.session.loggedIn,
       isManager: req.session.isManager,
     });
