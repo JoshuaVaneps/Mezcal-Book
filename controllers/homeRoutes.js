@@ -108,6 +108,8 @@ router.get("/views", async (req, res) => {
         [Op.or]: [
           { brand: { [Op.like]: `%${userSearch}%` } },
           { name: { [Op.like]: `%${userSearch}%` } },
+          { agave: { [Op.like]: `%${userSearch}` } },
+          { style: { [Op.like]: `%${userSearch}%` } },
         ],
       },
     });
@@ -117,6 +119,8 @@ router.get("/views", async (req, res) => {
         [Op.or]: [
           { brand: { [Op.like]: `%${userSearch}%` } },
           { name: { [Op.like]: `%${userSearch}%` } },
+          { agave: { [Op.like]: `%${userSearch}%` } },
+          { style: { [Op.like]: `%${userSearch}%` } },
         ],
       },
     });
