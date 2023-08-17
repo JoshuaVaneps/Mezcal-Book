@@ -100,6 +100,7 @@ router.get("/image-upload", (req, res) => {
   res.render("image-upload");
 });
 
+// universal search function
 const generateSearchCriteria = (terms, columns) => {
   const criteria = [];
   terms.forEach((term) => {
@@ -115,7 +116,7 @@ const generateSearchCriteria = (terms, columns) => {
 router.get("/views", async (req, res) => {
   try {
     const userSearch = req.query.search;
-    const terms = userSearch.toLowerCase().split(" "); // ["laptop", "apple"]
+    const terms = userSearch.toLowerCase().split(" ");
     for (let i = 0; i < terms.length; i++) {
       if (
         terms[i] === "and" ||
@@ -127,6 +128,7 @@ router.get("/views", async (req, res) => {
         terms[i] = null;
       }
     }
+
     const columns = ["brand", "name", "agave", "style", "pallet"];
     const searchCriteria = generateSearchCriteria(terms, columns);
 
@@ -143,33 +145,7 @@ router.get("/views", async (req, res) => {
       tequila.get({ plain: true })
     );
 
-    // const mezcalData = data.get({ plain: true });
-
     console.log(mezcalData);
-    // const mezcalData = await Mezcal.findAll({
-    //   where: {
-    //     [Op.or]: [
-    //       { brand: { [Op.like]: `%${userSearch}%` } },
-    //       { name: { [Op.like]: `%${userSearch}%` } },
-    //     ],
-    //   },
-    // });
-
-    // const tequilaData = await Tequila.findAll({
-    //   where: {
-    //     [Op.or]: [
-    //       { brand: { [Op.like]: `%${userSearch}%` } },
-    //       { name: { [Op.like]: `%${userSearch}%` } },
-    //     ],
-    //   },
-    // });
-
-    // console.log("Data to be rendered:", {
-    //   userSearch,
-    //   searchResults: [...mezcalData].map((item) => item.dataValues),
-    //   loggedIn: req.session.loggedIn,
-    //   isManager: req.session.isManager,
-    // });
 
     res.render("search", {
       userSearch,
