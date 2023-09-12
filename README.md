@@ -36,8 +36,8 @@ For any inquiries or questions related to the project, you can contact the follo
 - LinkedIn: [Joshua Vaneps](https://www.linkedin.com/in/joshua-vaneps-465949286)
 
 **Lead Back-End Developer - Nick Sweet**
-- Email: nick.sweet@example.com
-- GitHub: [nick-sweet](https://github.com/NickSweet1)
+- Email: nicksweetj@gmail.com
+- GitHub: [NickSweet1](https://github.com/NickSweet1)
 - LinkedIn: [Nick Sweet](https://www.linkedin.com/in/nicholas-sweet1/)
 
 Feel free to reach out to them with any project-related inquiries or collaboration opportunities. They will be happy to assist you. 
